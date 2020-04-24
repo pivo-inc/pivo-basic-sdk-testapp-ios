@@ -1,0 +1,16 @@
+PODS:
+  - PivoBasicSDK (0.0.3)
+
+DEPENDENCIES:
+  - PivoBasicSDK
+
+SPEC REPOS:
+  trunk:
+    - PivoBasicSDK
+
+SPEC CHECKSUMS:
+  PivoBasicSDK: d250e4210d9be45f689f76cf1347492987781eaa
+
+PODFILE CHECKSUM: 0ebbee2f1b22c36a3de4b4606c0f9a69692ed4ab
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1711F0CE2434163700956868 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711F0BD2434163700956868 /* UIAlertController+Extensions.swift */; };
+		1711F0D42434168000956868 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711F0D32434168000956868 /* UIView+Extensions.swift */; };
+		178BEBBB242C724600897252 /* licenseKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 178BEBB8242C724600897252 /* licenseKey.json */; };
+		17BDA4E023FF965000D68E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDA4DF23FF965000D68E52 /* AppDelegate.swift */; };
+		17BDA4E923FF965200D68E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BDA4E823FF965200D68E52 /* Assets.xcassets */; };
+		17BDA4EC23FF965200D68E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BDA4EA23FF965200D68E52 /* LaunchScreen.storyboard */; };
+		17BDA50423FF977400D68E52 /* SelectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDA50223FF977300D68E52 /* SelectDeviceViewController.swift */; };
+		17BDA50523FF977400D68E52 /* SelectDeviceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BDA50323FF977400D68E52 /* SelectDeviceViewController.storyboard */; };
+		17BDA50723FFA55F00D68E52 /* ControlRotatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDA50623FFA55F00D68E52 /* ControlRotatorVC.swift */; };
+		17BDA50B23FFA5E900D68E52 /* ControlRotatorVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BDA50A23FFA5E900D68E52 /* ControlRotatorVC.storyboard */; };
+		17D90D4B2403604B00CB69EA /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D90D372403604B00CB69EA /* PickerViewViewController.swift */; };
+		38B5D7D19DCA1FC5AF46D673 /* Pods_PivoBasicSDKTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E8768542DE748632F83A43 /* Pods_PivoBasicSDKTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1777BB1F242AE978008B3F6B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1711F0BD2434163700956868 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		1711F0D32434168000956868 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		178BEBB8242C724600897252 /* licenseKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = licenseKey.json; sourceTree = "<group>"; };
+		17BDA4DC23FF965000D68E52 /* PivoBasicSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PivoBasicSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BDA4DF23FF965000D68E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17BDA4E823FF965200D68E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17BDA4EB23FF965200D68E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17BDA4ED23FF965200D68E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BDA50223FF977300D68E52 /* SelectDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDeviceViewController.swift; sourceTree = "<group>"; };
+		17BDA50323FF977400D68E52 /* SelectDeviceViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectDeviceViewController.storyboard; sourceTree = "<group>"; };
+		17BDA50623FFA55F00D68E52 /* ControlRotatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRotatorVC.swift; sourceTree = "<group>"; };
+		17BDA50A23FFA5E900D68E52 /* ControlRotatorVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ControlRotatorVC.storyboard; sourceTree = "<group>"; };
+		17D90D372403604B00CB69EA /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		6AC952FF76E0A8110780F717 /* Pods-PivoBasicSDKTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PivoBasicSDKTestApp.release.xcconfig"; path = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		D8E8768542DE748632F83A43 /* Pods_PivoBasicSDKTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PivoBasicSDKTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A5E91931C23C771E8364EB /* Pods-PivoBasicSDKTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PivoBasicSDKTestApp.debug.xcconfig"; path = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BDA4D923FF965000D68E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B5D7D19DCA1FC5AF46D673 /* Pods_PivoBasicSDKTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1711F0B02434163700956868 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1711F0D32434168000956868 /* UIView+Extensions.swift */,
+				1711F0BD2434163700956868 /* UIAlertController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17BDA4D323FF965000D68E52 = {
+			isa = PBXGroup;
+			children = (
+				17BDA4DE23FF965000D68E52 /* PivoBasicSDKTestApp */,
+				17BDA4DD23FF965000D68E52 /* Products */,
+				17BDA4FC23FF96FE00D68E52 /* Frameworks */,
+				930A26736D801AE0A5A3D41F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		17BDA4DD23FF965000D68E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BDA4DC23FF965000D68E52 /* PivoBasicSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BDA4DE23FF965000D68E52 /* PivoBasicSDKTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				178BEBB8242C724600897252 /* licenseKey.json */,
+				17BDA4ED23FF965200D68E52 /* Info.plist */,
+				17BDA4DF23FF965000D68E52 /* AppDelegate.swift */,
+				17BDA4E823FF965200D68E52 /* Assets.xcassets */,
+				17D90D222403604B00CB69EA /* CustomPickerView */,
+				17BDA4EA23FF965200D68E52 /* LaunchScreen.storyboard */,
+				17BDA50123FF975D00D68E52 /* VC */,
+			);
+			path = PivoBasicSDKTestApp;
+			sourceTree = "<group>";
+		};
+		17BDA4FC23FF96FE00D68E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8768542DE748632F83A43 /* Pods_PivoBasicSDKTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17BDA50123FF975D00D68E52 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				17BDA50323FF977400D68E52 /* SelectDeviceViewController.storyboard */,
+				17BDA50223FF977300D68E52 /* SelectDeviceViewController.swift */,
+				17BDA50623FFA55F00D68E52 /* ControlRotatorVC.swift */,
+				17BDA50A23FFA5E900D68E52 /* ControlRotatorVC.storyboard */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		17D90D222403604B00CB69EA /* CustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1711F0B02434163700956868 /* Extensions */,
+				17D90D352403604B00CB69EA /* Pickers */,
+			);
+			path = CustomPickerView;
+			sourceTree = "<group>";
+		};
+		17D90D352403604B00CB69EA /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				17D90D362403604B00CB69EA /* PickerView */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		17D90D362403604B00CB69EA /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				17D90D372403604B00CB69EA /* PickerViewViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		930A26736D801AE0A5A3D41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5E91931C23C771E8364EB /* Pods-PivoBasicSDKTestApp.debug.xcconfig */,
+				6AC952FF76E0A8110780F717 /* Pods-PivoBasicSDKTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BDA4DB23FF965000D68E52 /* PivoBasicSDKTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BDA4F023FF965200D68E52 /* Build configuration list for PBXNativeTarget "PivoBasicSDKTestApp" */;
+			buildPhases = (
+				71DA8B37BCC9CB026EE784EE /* [CP] Check Pods Manifest.lock */,
+				17BDA4D823FF965000D68E52 /* Sources */,
+				17BDA4D923FF965000D68E52 /* Frameworks */,
+				17BDA4DA23FF965000D68E52 /* Resources */,
+				1777BB1F242AE978008B3F6B /* Embed Frameworks */,
+				1F727508D4E3286DCCC3B86B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PivoBasicSDKTestApp;
+			productName = RotatorTestApp;
+			productReference = 17BDA4DC23FF965000D68E52 /* PivoBasicSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BDA4D423FF965000D68E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = 3i;
+				TargetAttributes = {
+					17BDA4DB23FF965000D68E52 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 17BDA4D723FF965000D68E52 /* Build configuration list for PBXProject "PivoBasicSDKTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17BDA4D323FF965000D68E52;
+			productRefGroup = 17BDA4DD23FF965000D68E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BDA4DB23FF965000D68E52 /* PivoBasicSDKTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BDA4DA23FF965000D68E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BDA50523FF977400D68E52 /* SelectDeviceViewController.storyboard in Resources */,
+				17BDA4EC23FF965200D68E52 /* LaunchScreen.storyboard in Resources */,
+				17BDA4E923FF965200D68E52 /* Assets.xcassets in Resources */,
+				17BDA50B23FFA5E900D68E52 /* ControlRotatorVC.storyboard in Resources */,
+				178BEBBB242C724600897252 /* licenseKey.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F727508D4E3286DCCC3B86B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DA8B37BCC9CB026EE784EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PivoBasicSDKTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BDA4D823FF965000D68E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1711F0D42434168000956868 /* UIView+Extensions.swift in Sources */,
+				1711F0CE2434163700956868 /* UIAlertController+Extensions.swift in Sources */,
+				17BDA50723FFA55F00D68E52 /* ControlRotatorVC.swift in Sources */,
+				17BDA50423FF977400D68E52 /* SelectDeviceViewController.swift in Sources */,
+				17BDA4E023FF965000D68E52 /* AppDelegate.swift in Sources */,
+				17D90D4B2403604B00CB69EA /* PickerViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17BDA4EA23FF965200D68E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BDA4EB23FF965200D68E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17BDA4EE23FF965200D68E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17BDA4EF23FF965200D68E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17BDA4F123FF965200D68E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A5E91931C23C771E8364EB /* Pods-PivoBasicSDKTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZK8BGES47Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = PivoBasicSDKTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pivo.ios.basicsdkdemo;
+				PRODUCT_NAME = PivoBasicSDKDemo;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17BDA4F223FF965200D68E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC952FF76E0A8110780F717 /* Pods-PivoBasicSDKTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZK8BGES47Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = PivoBasicSDKTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pivo.ios.basicsdkdemo;
+				PRODUCT_NAME = PivoBasicSDKDemo;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BDA4D723FF965000D68E52 /* Build configuration list for PBXProject "PivoBasicSDKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BDA4EE23FF965200D68E52 /* Debug */,
+				17BDA4EF23FF965200D68E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BDA4F023FF965200D68E52 /* Build configuration list for PBXNativeTarget "PivoBasicSDKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BDA4F123FF965200D68E52 /* Debug */,
+				17BDA4F223FF965200D68E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17BDA4D423FF965000D68E52 /* Project object */;
+}
