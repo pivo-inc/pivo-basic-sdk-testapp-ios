@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PivoBasicSDK
 import CoreBluetooth
 import Foundation
@@ -13,6 +13,8 @@ public protocol PivoConnectionDelegate : AnyObject {
   func pivoConnection(didFailToConnect id: Swift.String)
   func pivoConnection(didEstablishSuccessfully id: Swift.String)
   func pivoConnectionDidRotate()
+  func pivoConnectionDidRotate1DegreeLeft()
+  func pivoConnectionDidRotate1DegreeRight()
   func pivoConnection(batteryLevel: Swift.Int)
   func pivoConnection(remoteControlerCommandReceived command: PivoBasicSDK.PivoEvent)
   func pivoConnection(bluetoothIsOn: Swift.Bool)
@@ -28,15 +30,17 @@ extension PivoConnectionDelegate {
   public func pivoConnection(batteryLevel: Swift.Int)
   public func pivoConnection(remoteControlerCommandReceived command: PivoBasicSDK.PivoEvent)
   public func pivoConnection(bluetoothIsOn: Swift.Bool)
+  public func pivoConnectionDidRotate1DegreeLeft()
+  public func pivoConnectionDidRotate1DegreeRight()
 }
 public enum Direction {
   case RIGHT
   case LEFT
   public static func == (a: PivoBasicSDK.Direction, b: PivoBasicSDK.Direction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum PivoEvent {
   case MODE
@@ -59,6 +63,8 @@ public enum PivoEvent {
   case SPEEDDOWN_RELEASED(secondsPerRound: Swift.Int)
   case SPEED(secondsPerRound: Swift.Int)
   case ROTATED(direction: PivoBasicSDK.Direction, angle: Swift.Int)
+  case ROTATED_1DEGREE_LEFT
+  case ROTATED_1DEGREE_RIGHT
 }
 extension PivoEvent : Swift.Equatable {
   public static func == (lhs: PivoBasicSDK.PivoEvent, rhs: PivoBasicSDK.PivoEvent) -> Swift.Bool
@@ -75,10 +81,20 @@ public enum PivoError : Foundation.LocalizedError {
     get
   }
   public static func == (a: PivoBasicSDK.PivoError, b: PivoBasicSDK.PivoError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
+}
+public enum PivoType {
+  case red
+  case silver
+  case black
+  public static func == (a: PivoBasicSDK.PivoType, b: PivoBasicSDK.PivoType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class PivoBasicSDK {
   public static var shared: PivoBasicSDK.PivoBasicSDK
@@ -107,9 +123,13 @@ public enum PivoError : Foundation.LocalizedError {
   public func changePivoName(newName: Swift.String)
   public func keepPivoWakeUp(_ wakeUp: Swift.Bool)
   public func getPivoVersion() -> Swift.String
+  public func toogleOnByPassRemoteControllerSignal()
+  public func toogleOffBypassRemoteControllerSignal()
   @objc deinit
 }
 extension PivoBasicSDK.Direction : Swift.Equatable {}
 extension PivoBasicSDK.Direction : Swift.Hashable {}
 extension PivoBasicSDK.PivoError : Swift.Equatable {}
 extension PivoBasicSDK.PivoError : Swift.Hashable {}
+extension PivoBasicSDK.PivoType : Swift.Equatable {}
+extension PivoBasicSDK.PivoType : Swift.Hashable {}
