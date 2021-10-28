@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1711F0CE2434163700956868 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711F0BD2434163700956868 /* UIAlertController+Extensions.swift */; };
 		1711F0D42434168000956868 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711F0D32434168000956868 /* UIView+Extensions.swift */; };
+		17402723272A51A600217B50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17402722272A51A600217B50 /* README.md */; };
 		178BEBBB242C724600897252 /* licenseKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 178BEBB8242C724600897252 /* licenseKey.json */; };
 		17BDA4E023FF965000D68E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDA4DF23FF965000D68E52 /* AppDelegate.swift */; };
 		17BDA4E923FF965200D68E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BDA4E823FF965200D68E52 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		1711F0BD2434163700956868 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 		1711F0D32434168000956868 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		17402722272A51A600217B50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		178BEBB8242C724600897252 /* licenseKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = licenseKey.json; sourceTree = "<group>"; };
 		17BDA4DC23FF965000D68E52 /* PivoBasicSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PivoBasicSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BDA4DF23FF965000D68E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		17BDA4DE23FF965000D68E52 /* PivoBasicSDKTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				17402722272A51A600217B50 /* README.md */,
 				178BEBB8242C724600897252 /* licenseKey.json */,
 				17BDA4ED23FF965200D68E52 /* Info.plist */,
 				17BDA4DF23FF965000D68E52 /* AppDelegate.swift */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17402723272A51A600217B50 /* README.md in Resources */,
 				17BDA50523FF977400D68E52 /* SelectDeviceViewController.storyboard in Resources */,
 				17BDA4EC23FF965200D68E52 /* LaunchScreen.storyboard in Resources */,
 				17BDA4E923FF965200D68E52 /* Assets.xcassets in Resources */,

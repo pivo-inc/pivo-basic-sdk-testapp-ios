@@ -31,7 +31,7 @@ class SelectDeviceViewController: UIViewController, UIImagePickerControllerDeleg
     let name: String
   }
   
-  private lazy var pivoSDK = PivoBasicSDK.shared
+  private lazy var pivoSDK = PivoSDK.shared
   private var rotators: [Rotator] = []
   
   private var isScanning = false

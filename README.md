@@ -12,7 +12,7 @@ Please visit [Pivo developer website](https://developer.pivo.app/) and generate 
 In your pod file, add this:
 
 ```
-pod 'PivoBasicSDK'
+pod 'PivoBasicSDK', :git => 'https://github.com/pivo-inc/pivo-basic-sdk-ios.git', :tag => '0.0.8'
 ```
 ## Usage
 
@@ -45,3 +45,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## Report
 If you encounter an issue during setting up the sdk, please contact us at app@3i.ai or open an issue.
+
+## Changelogs
+
+In version 0.0.8:
+- Change class name from `PivoProSDK` to `PivoSDK` to prevent an error
+- Support new Pivo types
+- Build with Swift 5.5
+- In order to get `Rotated` feedback when rotates Pivo, please make sure to use `turnLeftWithFeedback` and `turnRightWithFeedback` with speed from `getSupportedSpeedsByRemoteControllerInSecoundsPerRound`

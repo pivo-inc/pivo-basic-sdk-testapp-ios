@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		544DE8008878850CCD66289ECA2304BA /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17280E4E6D93845BA935CBD86896DBA0 /* Pods-PivoBasicSDKTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F8AEE675BCD0F85CFD02C2CB2FE7350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		775861BDCB64AE89DA1A301291707705 /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91EBD3E999BF999D23BEE04555C488 /* Pods-PivoBasicSDKTestApp-dummy.m */; };
+		1FACEE732DF678B7D84C133FF3BA275D /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91EBD3E999BF999D23BEE04555C488 /* Pods-PivoBasicSDKTestApp-dummy.m */; };
+		40F0E5390138E4389C7622507ABB4AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		948169647376A21250E28576EF1121EE /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17280E4E6D93845BA935CBD86896DBA0 /* Pods-PivoBasicSDKTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		560E9E768C8F8F43E1E305D686582F02 /* PBXContainerItemProxy */ = {
+		2EA16A5D13E0D3D1D0312852FC882593 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -49,16 +49,16 @@
 		B438E8E3B1DC40CCE8681B1928A77684 /* Pods-PivoBasicSDKTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PivoBasicSDKTestApp-frameworks.sh"; sourceTree = "<group>"; };
 		B55E14C917C8E94F52986D9B6E7E9B02 /* Pods-PivoBasicSDKTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PivoBasicSDKTestApp.modulemap"; sourceTree = "<group>"; };
 		CE41A2382C1DFD11566C83FEEB6DDDEA /* PivoBasicSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PivoBasicSDK.framework; sourceTree = "<group>"; };
-		D66927DBC10D8EAA49C13E602AA642B3 /* Pods_PivoBasicSDKTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PivoBasicSDKTestApp.framework; path = "Pods-PivoBasicSDKTestApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66927DBC10D8EAA49C13E602AA642B3 /* Pods-PivoBasicSDKTestApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PivoBasicSDKTestApp"; path = Pods_PivoBasicSDKTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FF646E38F4946B8F5CB2BC6E614E84 /* PivoBasicSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PivoBasicSDK.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A5B61E98F4D0E293141455A85AA6C32 /* Frameworks */ = {
+		DC32CAC927B5609E20F587A288E98E95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8AEE675BCD0F85CFD02C2CB2FE7350 /* Foundation.framework in Frameworks */,
+				40F0E5390138E4389C7622507ABB4AA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +102,14 @@
 			path = PivoBasicSDK;
 			sourceTree = "<group>";
 		};
+		5DCD148F2E3B984335AA8FD4993BFAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66927DBC10D8EAA49C13E602AA642B3 /* Pods-PivoBasicSDKTestApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9A979D3466369D835F78BEA59D4E327C /* Pods-PivoBasicSDKTestApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +127,6 @@
 			path = "Target Support Files/Pods-PivoBasicSDKTestApp";
 			sourceTree = "<group>";
 		};
-		9BF2D829B6081269C60777DB6B1BE2D2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D66927DBC10D8EAA49C13E602AA642B3 /* Pods_PivoBasicSDKTestApp.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A5DD374CB53E43E726AD0A17289C60FF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +141,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4A849C0A71F4A4607F2004EFFA197043 /* Pods */,
-				9BF2D829B6081269C60777DB6B1BE2D2 /* Products */,
+				5DCD148F2E3B984335AA8FD4993BFAA6 /* Products */,
 				A5DD374CB53E43E726AD0A17289C60FF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -165,11 +165,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6092BB282A3D5944DA40ED5704449555 /* Headers */ = {
+		DBEB642EE17F72D8C9B83E34F430F263 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544DE8008878850CCD66289ECA2304BA /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */,
+				948169647376A21250E28576EF1121EE /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,21 +178,21 @@
 /* Begin PBXNativeTarget section */
 		D015EC1FA5D66B7729021F12E4414A86 /* Pods-PivoBasicSDKTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEF4D20921164B199065ACA3B889CCC /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */;
+			buildConfigurationList = 678935C8C3C5345A7D7656C1BF0D4A19 /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */;
 			buildPhases = (
-				6092BB282A3D5944DA40ED5704449555 /* Headers */,
-				C5F3997833399BAEBD52A19372F3E1D1 /* Sources */,
-				7A5B61E98F4D0E293141455A85AA6C32 /* Frameworks */,
-				43739A4A308EE9A253CEE3D204291CF2 /* Resources */,
+				DBEB642EE17F72D8C9B83E34F430F263 /* Headers */,
+				B4226294C3B634D418D112E6D49C1C39 /* Sources */,
+				DC32CAC927B5609E20F587A288E98E95 /* Frameworks */,
+				FC71289C3B83FAD5A2E87CBCC1455A70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33DB405BFB5B1C80529E7E77A70980D2 /* PBXTargetDependency */,
+				58B900FE70BD7F3FBDF721B0DA204347 /* PBXTargetDependency */,
 			);
 			name = "Pods-PivoBasicSDKTestApp";
-			productName = "Pods-PivoBasicSDKTestApp";
-			productReference = D66927DBC10D8EAA49C13E602AA642B3 /* Pods_PivoBasicSDKTestApp.framework */;
+			productName = Pods_PivoBasicSDKTestApp;
+			productReference = D66927DBC10D8EAA49C13E602AA642B3 /* Pods-PivoBasicSDKTestApp */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -201,19 +201,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9BF2D829B6081269C60777DB6B1BE2D2 /* Products */;
+			productRefGroup = 5DCD148F2E3B984335AA8FD4993BFAA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -224,7 +224,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43739A4A308EE9A253CEE3D204291CF2 /* Resources */ = {
+		FC71289C3B83FAD5A2E87CBCC1455A70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,27 +234,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C5F3997833399BAEBD52A19372F3E1D1 /* Sources */ = {
+		B4226294C3B634D418D112E6D49C1C39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				775861BDCB64AE89DA1A301291707705 /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */,
+				1FACEE732DF678B7D84C133FF3BA275D /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		33DB405BFB5B1C80529E7E77A70980D2 /* PBXTargetDependency */ = {
+		58B900FE70BD7F3FBDF721B0DA204347 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PivoBasicSDK;
 			target = D5DAE5B8BA6B9DCF789947906AF4D7C3 /* PivoBasicSDK */;
-			targetProxy = 560E9E768C8F8F43E1E305D686582F02 /* PBXContainerItemProxy */;
+			targetProxy = 2EA16A5D13E0D3D1D0312852FC882593 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25C38049AA735C723CE2E33F9136C329 /* Release */ = {
+		16CB14DFEE2C12248068815CFAC3503B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2582AB6AF43563CC2581844491BBE154 /* Pods-PivoBasicSDKTestApp.release.xcconfig */;
 			buildSettings = {
@@ -325,7 +325,7 @@
 			};
 			name = Release;
 		};
-		5AC4924966B193B6E47A444144DE2509 /* Debug */ = {
+		56C76345712CBB16787455BE422C65E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23DBEE6EBD44A0AA088996E5FE5E7443 /* Pods-PivoBasicSDKTestApp.debug.xcconfig */;
 			buildSettings = {
@@ -493,20 +493,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BEF4D20921164B199065ACA3B889CCC /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AC4924966B193B6E47A444144DE2509 /* Debug */,
-				25C38049AA735C723CE2E33F9136C329 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
 				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678935C8C3C5345A7D7656C1BF0D4A19 /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C76345712CBB16787455BE422C65E5 /* Debug */,
+				16CB14DFEE2C12248068815CFAC3503B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

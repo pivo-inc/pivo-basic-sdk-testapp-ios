@@ -21,7 +21,7 @@ class ControlRotatorVC: UIViewController {
   @IBOutlet weak var tfAngle: UITextField!
   @IBOutlet weak var buttonSpeed: UIButton!
   
-  private lazy var pivoSDK = PivoBasicSDK.shared
+  private lazy var pivoSDK = PivoSDK.shared
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -50,14 +50,24 @@ class ControlRotatorVC: UIViewController {
   @IBAction func didRotateLeftByDegreeButtonClicked(_ sender: Any) {
     resignResponder()
     if let angleStr = tfAngle.text, let angle = Int(angleStr) {
-      pivoSDK.turnLeft(angle: angle)
+      do {
+        try pivoSDK.turnLeftWithFeedback(angle: angle)
+      }
+      catch {
+        pivoSDK.turnLeft(angle: angle)
+      }
     }
   }
   
   @IBAction func didRotateRightByDegreeButtonClicked(_ sender: Any) {
     resignResponder()
     if let angleStr = tfAngle.text, let angle = Int(angleStr) {
-      pivoSDK.turnRight(angle: angle)
+      do {
+        try pivoSDK.turnRightWithFeedback(angle: angle)
+      }
+      catch {
+        pivoSDK.turnRight(angle: angle)
+      }
     }
   }
   
