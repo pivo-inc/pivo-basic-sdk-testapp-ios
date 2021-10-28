@@ -49,7 +49,7 @@ If you encounter an issue during setting up the sdk, please contact us at app@3i
 ## Changelogs
 
 In version 0.0.8:
-- Change class name from `PivoProSDK` to `PivoSDK` to prevent an error
+- Change class name from `PivoBasicSDK` to `PivoSDK` to prevent an error
 - Support new Pivo types
 - Build with Swift 5.5
 - In order to get `Rotated` feedback when rotates Pivo, please make sure to use `turnLeftWithFeedback` and `turnRightWithFeedback` with speed from `getSupportedSpeedsByRemoteControllerInSecoundsPerRound`
