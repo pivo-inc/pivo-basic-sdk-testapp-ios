@@ -113,6 +113,19 @@ class ControlRotatorVC: UIViewController {
     navigationController?.popViewController(animated: true)
   }
   
+  @IBAction func didToggleByPassRCChanged(_ sender: UISwitch) {
+    do {
+      guard try pivoSDK.isByPassRemoteControllerSupported() else {
+        return
+      }
+      
+      sender.isOn ? pivoSDK.turnOnByPassRemoteController() : pivoSDK.turnOffBypassRemoteController()
+    }
+    catch {
+      print(error)
+    }
+  }
+  
   private func resignResponder() {
     tfAngle.resignFirstResponder()
   }
@@ -178,6 +191,14 @@ extension ControlRotatorVC: PivoConnectionDelegate {
   
   func pivoConnection(remoteControlerCommandReceived command: PivoEvent) {
     labelCommand.text = "\(command)"
+  }
+  
+  func pivoConnectionByPassRemoteControllerOn() {
+    labelCommand.text = "By Pass Remote Controller On"
+  }
+  
+  func pivoConnectionByPassRemoteControllerOff() {
+    labelCommand.text = "By Pass Remote Controller Off"
   }
   
   func pivoConnection(batteryLevel: Int) {
