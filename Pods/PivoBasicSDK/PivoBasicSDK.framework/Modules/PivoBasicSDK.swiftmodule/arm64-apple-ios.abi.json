@@ -1,0 +1,4868 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PivoConnectionDelegate",
+        "printedName": "PivoConnectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didDiscover:deviceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD011didDiscover10deviceNameySS_SStF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD011didDiscover10deviceNameySS_SStF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didConnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD010didConnectySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD010didConnectySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didDisconnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD013didDisconnectySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD013didDisconnectySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didFailToConnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD016didFailToConnectySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD016didFailToConnectySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didEstablishSuccessfully:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD024didEstablishSuccessfullyySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD024didEstablishSuccessfullyySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionDidRotate",
+            "printedName": "pivoConnectionDidRotate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD9DidRotateyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD9DidRotateyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionDidRotate1DegreeLeft",
+            "printedName": "pivoConnectionDidRotate1DegreeLeft()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD20DidRotate1DegreeLeftyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD20DidRotate1DegreeLeftyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionDidRotate1DegreeRight",
+            "printedName": "pivoConnectionDidRotate1DegreeRight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD21DidRotate1DegreeRightyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD21DidRotate1DegreeRightyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(batteryLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD012batteryLevelySi_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD012batteryLevelySi_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(remoteControlerCommandReceived:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoEvent",
+                "printedName": "PivoBasicSDK.PivoEvent",
+                "usr": "s:12PivoBasicSDK0A5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD030remoteControlerCommandReceivedyAA0A5EventO_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD030remoteControlerCommandReceivedyAA0A5EventO_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(bluetoothIsOn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD013bluetoothIsOnySb_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD013bluetoothIsOnySb_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionBluetoothPermissionDenied",
+            "printedName": "pivoConnectionBluetoothPermissionDenied()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD25BluetoothPermissionDeniedyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD25BluetoothPermissionDeniedyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionByPassRemoteControllerOn",
+            "printedName": "pivoConnectionByPassRemoteControllerOn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD24ByPassRemoteControllerOnyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD24ByPassRemoteControllerOnyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionByPassRemoteControllerOff",
+            "printedName": "pivoConnectionByPassRemoteControllerOff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP04pivoD25ByPassRemoteControllerOffyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP04pivoD25ByPassRemoteControllerOffyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didDiscover:deviceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD011didDiscover10deviceNameySS_SStF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD011didDiscover10deviceNameySS_SStF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didConnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD010didConnectySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD010didConnectySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didDisconnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD013didDisconnectySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD013didDisconnectySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didFailToConnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD016didFailToConnectySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD016didFailToConnectySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(didEstablishSuccessfully:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD024didEstablishSuccessfullyySS_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD024didEstablishSuccessfullyySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionDidRotate",
+            "printedName": "pivoConnectionDidRotate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD9DidRotateyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD9DidRotateyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(batteryLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD012batteryLevelySi_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD012batteryLevelySi_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(remoteControlerCommandReceived:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoEvent",
+                "printedName": "PivoBasicSDK.PivoEvent",
+                "usr": "s:12PivoBasicSDK0A5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD030remoteControlerCommandReceivedyAA0A5EventO_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD030remoteControlerCommandReceivedyAA0A5EventO_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnection",
+            "printedName": "pivoConnection(bluetoothIsOn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD013bluetoothIsOnySb_tF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD013bluetoothIsOnySb_tF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionDidRotate1DegreeLeft",
+            "printedName": "pivoConnectionDidRotate1DegreeLeft()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD20DidRotate1DegreeLeftyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD20DidRotate1DegreeLeftyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionDidRotate1DegreeRight",
+            "printedName": "pivoConnectionDidRotate1DegreeRight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD21DidRotate1DegreeRightyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD21DidRotate1DegreeRightyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionByPassRemoteControllerOn",
+            "printedName": "pivoConnectionByPassRemoteControllerOn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD24ByPassRemoteControllerOnyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD24ByPassRemoteControllerOnyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pivoConnectionByPassRemoteControllerOff",
+            "printedName": "pivoConnectionByPassRemoteControllerOff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD25ByPassRemoteControllerOffyyF",
+            "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegatePAAE04pivoD25ByPassRemoteControllerOffyyF",
+            "moduleName": "PivoBasicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PivoBasicSDK.PivoConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PivoBasicSDK.PivoConnectionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP",
+        "mangledName": "$s12PivoBasicSDK0A18ConnectionDelegateP",
+        "moduleName": "PivoBasicSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Direction",
+        "printedName": "Direction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "RIGHT",
+            "printedName": "RIGHT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.Direction.Type) -> PivoBasicSDK.Direction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "PivoBasicSDK.Direction",
+                    "usr": "s:12PivoBasicSDK9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.Direction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "PivoBasicSDK.Direction",
+                        "usr": "s:12PivoBasicSDK9DirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK9DirectionO5RIGHTyA2CmF",
+            "mangledName": "$s12PivoBasicSDK9DirectionO5RIGHTyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEFT",
+            "printedName": "LEFT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.Direction.Type) -> PivoBasicSDK.Direction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "PivoBasicSDK.Direction",
+                    "usr": "s:12PivoBasicSDK9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.Direction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "PivoBasicSDK.Direction",
+                        "usr": "s:12PivoBasicSDK9DirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK9DirectionO4LEFTyA2CmF",
+            "mangledName": "$s12PivoBasicSDK9DirectionO4LEFTyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "PivoBasicSDK.Direction",
+                "usr": "s:12PivoBasicSDK9DirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "PivoBasicSDK.Direction",
+                "usr": "s:12PivoBasicSDK9DirectionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK9DirectionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12PivoBasicSDK9DirectionO2eeoiySbAC_ACtFZ",
+            "moduleName": "PivoBasicSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PivoBasicSDK9DirectionO9hashValueSivp",
+            "mangledName": "$s12PivoBasicSDK9DirectionO9hashValueSivp",
+            "moduleName": "PivoBasicSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK9DirectionO9hashValueSivg",
+                "mangledName": "$s12PivoBasicSDK9DirectionO9hashValueSivg",
+                "moduleName": "PivoBasicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK9DirectionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12PivoBasicSDK9DirectionO4hash4intoys6HasherVz_tF",
+            "moduleName": "PivoBasicSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PivoBasicSDK9DirectionO",
+        "mangledName": "$s12PivoBasicSDK9DirectionO",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PivoEvent",
+        "printedName": "PivoEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "MODE",
+            "printedName": "MODE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO4MODEyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO4MODEyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CAMERA",
+            "printedName": "CAMERA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO6CAMERAyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO6CAMERAyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "STOP",
+            "printedName": "STOP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO4STOPyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO4STOPyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OFF",
+            "printedName": "OFF",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO3OFFyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO3OFFyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CONNECTION_COMPLETED",
+            "printedName": "CONNECTION_COMPLETED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO20CONNECTION_COMPLETEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO20CONNECTION_COMPLETEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "NAME_CHANGED",
+            "printedName": "NAME_CHANGED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO12NAME_CHANGEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO12NAME_CHANGEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "VERSION",
+            "printedName": "VERSION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO7VERSIONyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO7VERSIONyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BATTERY_CHANGED",
+            "printedName": "BATTERY_CHANGED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(batteryLevel: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO15BATTERY_CHANGEDyACSi_tcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO15BATTERY_CHANGEDyACSi_tcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEFT_PRESSED",
+            "printedName": "LEFT_PRESSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO12LEFT_PRESSEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO12LEFT_PRESSEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEFT_RELEASED",
+            "printedName": "LEFT_RELEASED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO13LEFT_RELEASEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO13LEFT_RELEASEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RIGHT_PRESSED",
+            "printedName": "RIGHT_PRESSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO13RIGHT_PRESSEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO13RIGHT_PRESSEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RIGHT_RELEASED",
+            "printedName": "RIGHT_RELEASED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO14RIGHT_RELEASEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO14RIGHT_RELEASEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEFT_CONTINOUS_PRESSED",
+            "printedName": "LEFT_CONTINOUS_PRESSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO22LEFT_CONTINOUS_PRESSEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO22LEFT_CONTINOUS_PRESSEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RIGHT_CONTINOUS_PRESSED",
+            "printedName": "RIGHT_CONTINOUS_PRESSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO23RIGHT_CONTINOUS_PRESSEDyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO23RIGHT_CONTINOUS_PRESSEDyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SPEEDUP_PRESSED",
+            "printedName": "SPEEDUP_PRESSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(secondsPerRound: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO15SPEEDUP_PRESSEDyACSi_tcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO15SPEEDUP_PRESSEDyACSi_tcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SPEEDUP_RELEASED",
+            "printedName": "SPEEDUP_RELEASED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(secondsPerRound: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO16SPEEDUP_RELEASEDyACSi_tcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO16SPEEDUP_RELEASEDyACSi_tcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SPEEDDOWN_PRESSED",
+            "printedName": "SPEEDDOWN_PRESSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(secondsPerRound: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO17SPEEDDOWN_PRESSEDyACSi_tcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO17SPEEDDOWN_PRESSEDyACSi_tcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SPEEDDOWN_RELEASED",
+            "printedName": "SPEEDDOWN_RELEASED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(secondsPerRound: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO18SPEEDDOWN_RELEASEDyACSi_tcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO18SPEEDDOWN_RELEASEDyACSi_tcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SPEED",
+            "printedName": "SPEED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(secondsPerRound: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO5SPEEDyACSi_tcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO5SPEEDyACSi_tcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ROTATED",
+            "printedName": "ROTATED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> (PivoBasicSDK.Direction, Swift.Int) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PivoBasicSDK.Direction, Swift.Int) -> PivoBasicSDK.PivoEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(direction: PivoBasicSDK.Direction, angle: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "PivoBasicSDK.Direction",
+                            "usr": "s:12PivoBasicSDK9DirectionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO7ROTATEDyAcA9DirectionO_SitcACmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO7ROTATEDyAcA9DirectionO_SitcACmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ROTATED_1DEGREE_LEFT",
+            "printedName": "ROTATED_1DEGREE_LEFT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO20ROTATED_1DEGREE_LEFTyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO20ROTATED_1DEGREE_LEFTyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ROTATED_1DEGREE_RIGHT",
+            "printedName": "ROTATED_1DEGREE_RIGHT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO21ROTATED_1DEGREE_RIGHTyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO21ROTATED_1DEGREE_RIGHTyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BYPASS_RC_ON",
+            "printedName": "BYPASS_RC_ON",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO12BYPASS_RC_ONyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO12BYPASS_RC_ONyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "BYPASS_RC_OFF",
+            "printedName": "BYPASS_RC_OFF",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoEvent.Type) -> PivoBasicSDK.PivoEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoEvent",
+                    "printedName": "PivoBasicSDK.PivoEvent",
+                    "usr": "s:12PivoBasicSDK0A5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoEvent",
+                        "printedName": "PivoBasicSDK.PivoEvent",
+                        "usr": "s:12PivoBasicSDK0A5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5EventO13BYPASS_RC_OFFyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5EventO13BYPASS_RC_OFFyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoEvent",
+                "printedName": "PivoBasicSDK.PivoEvent",
+                "usr": "s:12PivoBasicSDK0A5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoEvent",
+                "printedName": "PivoBasicSDK.PivoEvent",
+                "usr": "s:12PivoBasicSDK0A5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A5EventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12PivoBasicSDK0A5EventO2eeoiySbAC_ACtFZ",
+            "moduleName": "PivoBasicSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PivoBasicSDK0A5EventO",
+        "mangledName": "$s12PivoBasicSDK0A5EventO",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PivoError",
+        "printedName": "PivoError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cannotReadLicenseKeyFile",
+            "printedName": "cannotReadLicenseKeyFile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO24cannotReadLicenseKeyFileyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO24cannotReadLicenseKeyFileyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenseNotProvided",
+            "printedName": "licenseNotProvided",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO18licenseNotProvidedyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO18licenseNotProvidedyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidLicenseKey",
+            "printedName": "invalidLicenseKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO17invalidLicenseKeyyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO17invalidLicenseKeyyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiredLicenseKey",
+            "printedName": "expiredLicenseKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO17expiredLicenseKeyyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO17expiredLicenseKeyyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothOff",
+            "printedName": "bluetoothOff",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO12bluetoothOffyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO12bluetoothOffyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothPermissionNotAllowed",
+            "printedName": "bluetoothPermissionNotAllowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO29bluetoothPermissionNotAllowedyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO29bluetoothPermissionNotAllowedyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackingModeNotSupported",
+            "printedName": "trackingModeNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO24trackingModeNotSupportedyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO24trackingModeNotSupportedyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "feedbackNotSupported",
+            "printedName": "feedbackNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO20feedbackNotSupportedyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO20feedbackNotSupportedyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pivoNotConnected",
+            "printedName": "pivoNotConnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoError.Type) -> PivoBasicSDK.PivoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoError",
+                    "printedName": "PivoBasicSDK.PivoError",
+                    "usr": "s:12PivoBasicSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoError",
+                        "printedName": "PivoBasicSDK.PivoError",
+                        "usr": "s:12PivoBasicSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A5ErrorO16pivoNotConnectedyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO16pivoNotConnectedyA2CmF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PivoBasicSDK0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s12PivoBasicSDK0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "PivoBasicSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoError",
+                "printedName": "PivoBasicSDK.PivoError",
+                "usr": "s:12PivoBasicSDK0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoError",
+                "printedName": "PivoBasicSDK.PivoError",
+                "usr": "s:12PivoBasicSDK0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PivoBasicSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PivoBasicSDK0A5ErrorO9hashValueSivp",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO9hashValueSivp",
+            "moduleName": "PivoBasicSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK0A5ErrorO9hashValueSivg",
+                "mangledName": "$s12PivoBasicSDK0A5ErrorO9hashValueSivg",
+                "moduleName": "PivoBasicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12PivoBasicSDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PivoBasicSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PivoBasicSDK0A5ErrorO",
+        "mangledName": "$s12PivoBasicSDK0A5ErrorO",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PivoType",
+        "printedName": "PivoType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "red",
+            "printedName": "red",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoType.Type) -> PivoBasicSDK.PivoType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoType",
+                    "printedName": "PivoBasicSDK.PivoType",
+                    "usr": "s:12PivoBasicSDK0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoType",
+                        "printedName": "PivoBasicSDK.PivoType",
+                        "usr": "s:12PivoBasicSDK0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A4TypeO3redyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO3redyA2CmF",
+            "moduleName": "PivoBasicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "silver",
+            "printedName": "silver",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoType.Type) -> PivoBasicSDK.PivoType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoType",
+                    "printedName": "PivoBasicSDK.PivoType",
+                    "usr": "s:12PivoBasicSDK0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoType",
+                        "printedName": "PivoBasicSDK.PivoType",
+                        "usr": "s:12PivoBasicSDK0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A4TypeO6silveryA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO6silveryA2CmF",
+            "moduleName": "PivoBasicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "black",
+            "printedName": "black",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoType.Type) -> PivoBasicSDK.PivoType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoType",
+                    "printedName": "PivoBasicSDK.PivoType",
+                    "usr": "s:12PivoBasicSDK0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoType",
+                        "printedName": "PivoBasicSDK.PivoType",
+                        "usr": "s:12PivoBasicSDK0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A4TypeO5blackyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO5blackyA2CmF",
+            "moduleName": "PivoBasicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "gold",
+            "printedName": "gold",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoType.Type) -> PivoBasicSDK.PivoType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoType",
+                    "printedName": "PivoBasicSDK.PivoType",
+                    "usr": "s:12PivoBasicSDK0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoType",
+                        "printedName": "PivoBasicSDK.PivoType",
+                        "usr": "s:12PivoBasicSDK0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A4TypeO4goldyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO4goldyA2CmF",
+            "moduleName": "PivoBasicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "lite",
+            "printedName": "lite",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PivoBasicSDK.PivoType.Type) -> PivoBasicSDK.PivoType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoType",
+                    "printedName": "PivoBasicSDK.PivoType",
+                    "usr": "s:12PivoBasicSDK0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PivoBasicSDK.PivoType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PivoType",
+                        "printedName": "PivoBasicSDK.PivoType",
+                        "usr": "s:12PivoBasicSDK0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PivoBasicSDK0A4TypeO4liteyA2CmF",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO4liteyA2CmF",
+            "moduleName": "PivoBasicSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoType",
+                "printedName": "PivoBasicSDK.PivoType",
+                "usr": "s:12PivoBasicSDK0A4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoType",
+                "printedName": "PivoBasicSDK.PivoType",
+                "usr": "s:12PivoBasicSDK0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A4TypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "PivoBasicSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PivoBasicSDK0A4TypeO9hashValueSivp",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO9hashValueSivp",
+            "moduleName": "PivoBasicSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK0A4TypeO9hashValueSivg",
+                "mangledName": "$s12PivoBasicSDK0A4TypeO9hashValueSivg",
+                "moduleName": "PivoBasicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0A4TypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12PivoBasicSDK0A4TypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "PivoBasicSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PivoBasicSDK0A4TypeO",
+        "mangledName": "$s12PivoBasicSDK0A4TypeO",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PivoSDK",
+        "printedName": "PivoSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PivoSDK",
+                "printedName": "PivoBasicSDK.PivoSDK",
+                "usr": "s:12PivoBasicSDK0aC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PivoBasicSDK0aC0C6sharedACvpZ",
+            "mangledName": "$s12PivoBasicSDK0aC0C6sharedACvpZ",
+            "moduleName": "PivoBasicSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoSDK",
+                    "printedName": "PivoBasicSDK.PivoSDK",
+                    "usr": "s:12PivoBasicSDK0aC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK0aC0C6sharedACvgZ",
+                "mangledName": "$s12PivoBasicSDK0aC0C6sharedACvgZ",
+                "moduleName": "PivoBasicSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PivoSDK",
+                    "printedName": "PivoBasicSDK.PivoSDK",
+                    "usr": "s:12PivoBasicSDK0aC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK0aC0C6sharedACvsZ",
+                "mangledName": "$s12PivoBasicSDK0aC0C6sharedACvsZ",
+                "moduleName": "PivoBasicSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PivoBasicSDK0aC0C6sharedACvMZ",
+                "mangledName": "$s12PivoBasicSDK0aC0C6sharedACvMZ",
+                "moduleName": "PivoBasicSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "unlockWithLicenseKey",
+            "printedName": "unlockWithLicenseKey(licenseKeyFileURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C20unlockWithLicenseKey07licenseG7FileURLy10Foundation0J0V_tKF",
+            "mangledName": "$s12PivoBasicSDK0aC0C20unlockWithLicenseKey07licenseG7FileURLy10Foundation0J0V_tKF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPivoConnected",
+            "printedName": "isPivoConnected()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C02isA9ConnectedSbyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C02isA9ConnectedSbyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addDelegate",
+            "printedName": "addDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoConnectionDelegate",
+                "printedName": "PivoBasicSDK.PivoConnectionDelegate",
+                "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C11addDelegateyyAA0a10ConnectionE0_pF",
+            "mangledName": "$s12PivoBasicSDK0aC0C11addDelegateyyAA0a10ConnectionE0_pF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeDelegate",
+            "printedName": "removeDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PivoConnectionDelegate",
+                "printedName": "PivoBasicSDK.PivoConnectionDelegate",
+                "usr": "s:12PivoBasicSDK0A18ConnectionDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C14removeDelegateyyAA0a10ConnectionE0_pF",
+            "mangledName": "$s12PivoBasicSDK0aC0C14removeDelegateyyAA0a10ConnectionE0_pF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scan",
+            "printedName": "scan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C4scanyyKF",
+            "mangledName": "$s12PivoBasicSDK0aC0C4scanyyKF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScan",
+            "printedName": "stopScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C8stopScanyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C8stopScanyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C7connect2idySS_tF",
+            "mangledName": "$s12PivoBasicSDK0aC0C7connect2idySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C10disconnectyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C10disconnectyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFastestSpeed",
+            "printedName": "setFastestSpeed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C15setFastestSpeedyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C15setFastestSpeedyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSupportedSpeedsInSecondsPerRound",
+            "printedName": "getSupportedSpeedsInSecondsPerRound()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C35getSupportedSpeedsInSecondsPerRoundSaySiGyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C35getSupportedSpeedsInSecondsPerRoundSaySiGyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSpeedBySecondsPerRound",
+            "printedName": "setSpeedBySecondsPerRound(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C25setSpeedBySecondsPerRoundyySiF",
+            "mangledName": "$s12PivoBasicSDK0aC0C25setSpeedBySecondsPerRoundyySiF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSupportedSpeedsByRemoteControllerInSecoundsPerRound",
+            "printedName": "getSupportedSpeedsByRemoteControllerInSecoundsPerRound()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C54getSupportedSpeedsByRemoteControllerInSecoundsPerRoundSaySiGyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C54getSupportedSpeedsByRemoteControllerInSecoundsPerRoundSaySiGyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnRight",
+            "printedName": "turnRight(angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C9turnRight5angleySi_tF",
+            "mangledName": "$s12PivoBasicSDK0aC0C9turnRight5angleySi_tF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnRight",
+            "printedName": "turnRight(angle:speed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C9turnRight5angle5speedySi_SitF",
+            "mangledName": "$s12PivoBasicSDK0aC0C9turnRight5angle5speedySi_SitF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnLeft",
+            "printedName": "turnLeft(angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C8turnLeft5angleySi_tF",
+            "mangledName": "$s12PivoBasicSDK0aC0C8turnLeft5angleySi_tF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnLeft",
+            "printedName": "turnLeft(angle:speed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C8turnLeft5angle5speedySi_SitF",
+            "mangledName": "$s12PivoBasicSDK0aC0C8turnLeft5angle5speedySi_SitF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnRightContinuously",
+            "printedName": "turnRightContinuously()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C21turnRightContinuouslyyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C21turnRightContinuouslyyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnRightContinuously",
+            "printedName": "turnRightContinuously(speed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C21turnRightContinuously5speedySi_tF",
+            "mangledName": "$s12PivoBasicSDK0aC0C21turnRightContinuously5speedySi_tF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnLeftContinuously",
+            "printedName": "turnLeftContinuously()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C20turnLeftContinuouslyyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C20turnLeftContinuouslyyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnLeftContinuously",
+            "printedName": "turnLeftContinuously(speed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C20turnLeftContinuously5speedySi_tF",
+            "mangledName": "$s12PivoBasicSDK0aC0C20turnLeftContinuously5speedySi_tF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C4stopyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C4stopyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestBatteryLevel",
+            "printedName": "requestBatteryLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C19requestBatteryLevelyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C19requestBatteryLevelyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changePivoName",
+            "printedName": "changePivoName(newName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C06changeA4Name03newE0ySS_tF",
+            "mangledName": "$s12PivoBasicSDK0aC0C06changeA4Name03newE0ySS_tF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keepPivoWakeUp",
+            "printedName": "keepPivoWakeUp(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C04keepA6WakeUpyySbF",
+            "mangledName": "$s12PivoBasicSDK0aC0C04keepA6WakeUpyySbF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPivoVersion",
+            "printedName": "getPivoVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C03getA7VersionSSyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C03getA7VersionSSyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toogleOnByPassRemoteControllerSignal",
+            "printedName": "toogleOnByPassRemoteControllerSignal()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C36toogleOnByPassRemoteControllerSignalyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C36toogleOnByPassRemoteControllerSignalyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toogleOffBypassRemoteControllerSignal",
+            "printedName": "toogleOffBypassRemoteControllerSignal()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C37toogleOffBypassRemoteControllerSignalyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C37toogleOffBypassRemoteControllerSignalyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnHold",
+            "printedName": "turnHold()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C8turnHoldyyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C8turnHoldyyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnLeftWithFeedback",
+            "printedName": "turnLeftWithFeedback(angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C20turnLeftWithFeedback5angleySi_tKF",
+            "mangledName": "$s12PivoBasicSDK0aC0C20turnLeftWithFeedback5angleySi_tKF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnRightWithFeedback",
+            "printedName": "turnRightWithFeedback(angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C21turnRightWithFeedback5angleySi_tKF",
+            "mangledName": "$s12PivoBasicSDK0aC0C21turnRightWithFeedback5angleySi_tKF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isByPassRemoteControllerSupported",
+            "printedName": "isByPassRemoteControllerSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C33isByPassRemoteControllerSupportedSbyKF",
+            "mangledName": "$s12PivoBasicSDK0aC0C33isByPassRemoteControllerSupportedSbyKF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnOnByPassRemoteController",
+            "printedName": "turnOnByPassRemoteController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C28turnOnByPassRemoteControlleryyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C28turnOnByPassRemoteControlleryyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "turnOffBypassRemoteController",
+            "printedName": "turnOffBypassRemoteController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PivoBasicSDK0aC0C29turnOffBypassRemoteControlleryyF",
+            "mangledName": "$s12PivoBasicSDK0aC0C29turnOffBypassRemoteControlleryyF",
+            "moduleName": "PivoBasicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12PivoBasicSDK0aC0C",
+        "mangledName": "$s12PivoBasicSDK0aC0C",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PivoBasicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/Pivo.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/Pivo.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/Pivo.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/Pivo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5568,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV1.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV1.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV1.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7083,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 882,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1022,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8056,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 895,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1035,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1082,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoSilver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8287,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1033,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1080,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoBlack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8284,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/Rotator.swift",
+      "kind": "Array",
+      "offset": 901,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/Rotator.swift",
+      "kind": "Array",
+      "offset": 977,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "BooleanLiteral",
+      "offset": 882,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1022,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8053,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "BooleanLiteral",
+      "offset": 889,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1029,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1076,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoRed.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8351,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4709,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/PublicKey.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 43,
+      "value": "\"(-----BEGIN KEY-----.+?-----END KEY-----)\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 797,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 868,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "Dictionary",
+      "offset": 936,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1098,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1135,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1173,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1221,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 40,
+      "value": "\"Connection status: \""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoBluetoothConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 23,
+      "value": "\"PivoBasicSDK.PivoBluetoothConnection\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/Asn1Parser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 38,
+      "value": "\"0000ff07-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 38,
+      "value": "\"0000ff01-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 38,
+      "value": "\"0000ff02-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "BooleanLiteral",
+      "offset": 882,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1022,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/Rotator\/PivoV4.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8055,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/PivoConnection\/PivoThottleChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 15,
+      "value": "\"PivoBasicSDK._objc_PublicKey\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 16,
+      "value": "\"PivoBasicSDK._objc_PrivateKey\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "StringLiteral",
+      "offset": 3907,
+      "length": 24,
+      "value": "\"PivoBasicSDK._objc_VerificationResult\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "StringLiteral",
+      "offset": 4135,
+      "length": 18,
+      "value": "\"PivoBasicSDK._objc_ClearMessage\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "StringLiteral",
+      "offset": 6077,
+      "length": 22,
+      "value": "\"PivoBasicSDK._objc_EncryptedMessage\""
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7125,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7141,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7157,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7173,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7125,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7141,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7157,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7173,
+      "length": 6,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tuan\/0.Projects\/PivoSDK\/ProSDK\/gitlab\/pivo-pro-sdk-ios\/PivoProSDK\/RSA\/SwiftyRSA+ObjC.swift",
+      "kind": "StringLiteral",
+      "offset": 6986,
+      "length": 15,
+      "value": "\"PivoBasicSDK._objc_Signature\""
+    }
+  ]
+}

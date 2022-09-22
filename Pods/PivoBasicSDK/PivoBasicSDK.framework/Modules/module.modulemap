@@ -6,6 +6,6 @@ framework module PivoBasicSDK {
 }
 
 module PivoBasicSDK.Swift {
-    header "PivoBasicSDK-Swift.h"
-    requires objc
+  header "PivoBasicSDK-Swift.h"
+  requires objc
 }
