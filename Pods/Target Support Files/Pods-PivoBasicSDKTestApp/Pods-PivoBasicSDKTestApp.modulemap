@@ -1,6 +1,0 @@
-framework module Pods_PivoBasicSDKTestApp {
-  umbrella header "Pods-PivoBasicSDKTestApp-umbrella.h"
-
-  export *
-  module * { export * }
-}

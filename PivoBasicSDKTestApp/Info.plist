@@ -21,13 +21,19 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Connect to Pivo</string>
+	<string>Connect to rotator</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>Connect to Pivo</string>
+	<string>Connect to rotator</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Use camera to tracking a target</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save image into photo library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Save image into photo library</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>SelectDeviceViewController</string>
+	<string>SelectPivoVC</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

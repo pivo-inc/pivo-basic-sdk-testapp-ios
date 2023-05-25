@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17BDA4DB23FF965000D68E52"
-               BuildableName = "PivoBasicSDKDemo.app"
+               BuildableName = "PivoBasicSDKTestApp.app"
                BlueprintName = "PivoBasicSDKTestApp"
                ReferencedContainer = "container:PivoBasicSDKTestApp.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17BDA4DB23FF965000D68E52"
-            BuildableName = "PivoBasicSDKDemo.app"
+            BuildableName = "PivoBasicSDKTestApp.app"
             BlueprintName = "PivoBasicSDKTestApp"
             ReferencedContainer = "container:PivoBasicSDKTestApp.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17BDA4DB23FF965000D68E52"
-            BuildableName = "PivoBasicSDKDemo.app"
+            BuildableName = "PivoBasicSDKTestApp.app"
             BlueprintName = "PivoBasicSDKTestApp"
             ReferencedContainer = "container:PivoBasicSDKTestApp.xcodeproj">
          </BuildableReference>
