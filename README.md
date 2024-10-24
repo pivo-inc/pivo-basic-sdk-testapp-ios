@@ -12,7 +12,7 @@ Please visit [Pivo developer website](https://developer.pivo.app/) and generate 
 In your pod file, add this:
 
 ```
-pod 'PivoBasicSDK', :git => 'https://github.com/pivo-inc/pivo-basic-sdk-ios.git', :tag => '0.0.8'
+pod 'PivoBasicSDK', :git => 'https://github.com/pivo-inc/pivo-basic-sdk-ios.git', :tag => '1.0.1'
 ```
 ## Usage
 
@@ -47,6 +47,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 If you encounter an issue during setting up the sdk, please contact us at app@3i.ai or open an issue.
 
 ## Changelogs
+
+In version 1.0.1:
+- Support Pivo Max
+- Fix third-party framework build error
 
 In version 0.0.8:
 - Change class name from `PivoBasicSDK` to `PivoSDK` to prevent an error
