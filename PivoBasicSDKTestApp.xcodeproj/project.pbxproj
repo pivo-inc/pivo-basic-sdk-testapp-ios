@@ -23,9 +23,8 @@
 		17DB990F24493B0000D21ECF /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DB990E24493B0000D21ECF /* DeviceOrientation.swift */; };
 		17DB99112449458600D21ECF /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DB99102449458600D21ECF /* UIImageExtension.swift */; };
 		17FA7548243EF6FC007D1B73 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA7547243EF6FC007D1B73 /* AssetsLibrary.framework */; };
+		2A3C8978C8D09A29D9E5D51A /* Pods_PivoBasicSDKTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB03390A6EDDEE2D8E92C87B /* Pods_PivoBasicSDKTestApp.framework */; };
 		36D9EA7629ECB14E005E9C51 /* licenseKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 36D9EA7529ECB14E005E9C51 /* licenseKey.json */; };
-		36D9EA9829ECC5B7005E9C51 /* PivoBasicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D9EA7229E7E01D005E9C51 /* PivoBasicSDK.framework */; };
-		36D9EA9929ECC5B7005E9C51 /* PivoBasicSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D9EA7229E7E01D005E9C51 /* PivoBasicSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC2064CD2CCA237000A03C52 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2064CA2CCA237000A03C52 /* MBProgressHUD.framework */; };
 		AC2064CE2CCA237000A03C52 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC2064CA2CCA237000A03C52 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC2064CF2CCA237000A03C52 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2064CB2CCA237000A03C52 /* RealmSwift.framework */; };
@@ -43,7 +42,6 @@
 			files = (
 				AC2064D22CCA237000A03C52 /* Realm.framework in Embed Frameworks */,
 				AC2064CE2CCA237000A03C52 /* MBProgressHUD.framework in Embed Frameworks */,
-				36D9EA9929ECC5B7005E9C51 /* PivoBasicSDK.framework in Embed Frameworks */,
 				AC2064D02CCA237000A03C52 /* RealmSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -72,9 +70,12 @@
 		17FA7547243EF6FC007D1B73 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		36D9EA7229E7E01D005E9C51 /* PivoBasicSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PivoBasicSDK.framework; path = Frameworks/PivoBasicSDK.framework; sourceTree = "<group>"; };
 		36D9EA7529ECB14E005E9C51 /* licenseKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = licenseKey.json; sourceTree = "<group>"; };
+		39E62C49DA2183BD496B9A90 /* Pods-PivoBasicSDKTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PivoBasicSDKTestApp.release.xcconfig"; path = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		86F258CAFCA069A7B144F81E /* Pods-PivoBasicSDKTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PivoBasicSDKTestApp.debug.xcconfig"; path = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AC2064CA2CCA237000A03C52 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Frameworks/MBProgressHUD.framework; sourceTree = "<group>"; };
 		AC2064CB2CCA237000A03C52 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Frameworks/RealmSwift.framework; sourceTree = "<group>"; };
 		AC2064CC2CCA237000A03C52 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Frameworks/Realm.framework; sourceTree = "<group>"; };
+		CB03390A6EDDEE2D8E92C87B /* Pods_PivoBasicSDKTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PivoBasicSDKTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D9EA9829ECC5B7005E9C51 /* PivoBasicSDK.framework in Frameworks */,
 				17FA7548243EF6FC007D1B73 /* AssetsLibrary.framework in Frameworks */,
 				AC2064CF2CCA237000A03C52 /* RealmSwift.framework in Frameworks */,
 				AC2064CD2CCA237000A03C52 /* MBProgressHUD.framework in Frameworks */,
 				AC2064D12CCA237000A03C52 /* Realm.framework in Frameworks */,
+				2A3C8978C8D09A29D9E5D51A /* Pods_PivoBasicSDKTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +138,7 @@
 				17BDA4DE23FF965000D68E52 /* PivoBasicSDKTestApp */,
 				17BDA4DD23FF965000D68E52 /* Products */,
 				17BDA4FC23FF96FE00D68E52 /* Frameworks */,
+				E411F31AB5860304480C759E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +174,7 @@
 				AC2064CB2CCA237000A03C52 /* RealmSwift.framework */,
 				17FA7547243EF6FC007D1B73 /* AssetsLibrary.framework */,
 				36D9EA7229E7E01D005E9C51 /* PivoBasicSDK.framework */,
+				CB03390A6EDDEE2D8E92C87B /* Pods_PivoBasicSDKTestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +213,15 @@
 			path = PickerView;
 			sourceTree = "<group>";
 		};
+		E411F31AB5860304480C759E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86F258CAFCA069A7B144F81E /* Pods-PivoBasicSDKTestApp.debug.xcconfig */,
+				39E62C49DA2183BD496B9A90 /* Pods-PivoBasicSDKTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,10 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17BDA4F023FF965200D68E52 /* Build configuration list for PBXNativeTarget "PivoBasicSDKTestApp" */;
 			buildPhases = (
+				74AA93B13DC5EFB2193641F5 /* [CP] Check Pods Manifest.lock */,
 				17BDA4D823FF965000D68E52 /* Sources */,
 				17BDA4D923FF965000D68E52 /* Frameworks */,
 				17BDA4DA23FF965000D68E52 /* Resources */,
 				36D9EA9A29ECC5B7005E9C51 /* Embed Frameworks */,
+				F1F96002F3868125D0BD56AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +293,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74AA93B13DC5EFB2193641F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PivoBasicSDKTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F96002F3868125D0BD56AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17BDA4D823FF965000D68E52 /* Sources */ = {
@@ -428,6 +484,7 @@
 		};
 		17BDA4F123FF965200D68E52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F258CAFCA069A7B144F81E /* Pods-PivoBasicSDKTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +511,7 @@
 		};
 		17BDA4F223FF965200D68E52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E62C49DA2183BD496B9A90 /* Pods-PivoBasicSDKTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
