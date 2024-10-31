@@ -134,7 +134,7 @@ class ControlPivoVC: UIViewController {
       }
       
       sender.isOn ? pivoSDK.turnOnByPassRemoteController() : pivoSDK.turnOffBypassRemoteController()
-      sender.isOn ? pivoConnectionByPassRemoteControllerOn() : pivoConnectionByPassRemoteControllerOff()
+//      sender.isOn ? pivoConnectionByPassRemoteControllerOn() : pivoConnectionByPassRemoteControllerOff()
     }
     catch {
       print(error)
@@ -198,42 +198,30 @@ extension ControlPivoVC {
   }
 }
 
-extension ControlPivoVC: PodConnectionDelegate {
+extension ControlPivoVC: PivoConnectionDelegate {
   
   func pivoConnectionDidRotate() {
-    DispatchQueue.main.async { [weak self] in
-      self?.labelCommand.text = "ROTATED"
-    }
+    labelCommand.text = "ROTATED"
   }
   
-  func pivoConnection(remoteControlerCommandReceived command: PodResponse) {
-    DispatchQueue.main.async { [weak self] in
-      self?.labelCommand.text = "\(command)"
-    }
+  func pivoConnection(remoteControlerCommandReceived command: PivoEvent) {
+    labelCommand.text = "\(command)"
   }
   
   func pivoConnectionByPassRemoteControllerOn() {
-    DispatchQueue.main.async { [weak self] in
-      self?.labelCommand.text = "By Pass Remote Controller On"
-    }
+    labelCommand.text = "By Pass Remote Controller On"
   }
   
   func pivoConnectionByPassRemoteControllerOff() {
-    DispatchQueue.main.async { [weak self] in
-      self?.labelCommand.text = "By Pass Remote Controller Off"
-    }
+    labelCommand.text = "By Pass Remote Controller Off"
   }
   
-  func pivoBatteryUpdate(device: BluetoothDevice) {
-    DispatchQueue.main.async { [weak self] in
-      self?.labelBatteryLevel.text = "Battery Level: \(device.batteryLevel)%"
-    }
+  func pivoConnection(batteryLevel: Int) {
+    labelBatteryLevel.text = "Battery Level: \(batteryLevel)%"
   }
   
-  func pivoConnection(didDisconnect device: BluetoothDevice) {
-    DispatchQueue.main.async { [weak self] in
-      self?.navigationController?.popViewController(animated: true)
-    }
+  func pivoConnection(didDisconnect id: String) {
+    navigationController?.popViewController(animated: true)
   }
   
   func pivoConnectionBluetoothPermissionDenied() {

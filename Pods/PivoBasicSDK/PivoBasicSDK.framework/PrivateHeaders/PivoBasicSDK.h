@@ -1,5 +1,3 @@
-\
-
 //
 //  PivoBasicSDK.h
 //  PivoBasicSDK

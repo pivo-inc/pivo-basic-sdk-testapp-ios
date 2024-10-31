@@ -4,89 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		NhSaGW+q8HPfooHNyETZkUQXeL8=
-		</data>
-		<key>Frameworks/MBProgressHUD.framework/Info.plist</key>
-		<data>
-		AnhAVPB6IBsrPaDHUehCafC3IUQ=
-		</data>
-		<key>Frameworks/MBProgressHUD.framework/MBProgressHUD</key>
-		<data>
-		+q0rqvjJu5mjR16cQS5ItZjURsM=
-		</data>
-		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>
-		<data>
-		MMgmPMckPnnliDT6myPH40ivd0s=
-		</data>
-		<key>Frameworks/Realm.framework/CHANGELOG.md</key>
-		<data>
-		wIksKCuBMEv4H9/2dVKiFxg0elc=
-		</data>
-		<key>Frameworks/Realm.framework/Info.plist</key>
-		<data>
-		0de793V7thhhrDdHClJlSIYsx3c=
-		</data>
-		<key>Frameworks/Realm.framework/LICENSE</key>
-		<data>
-		vnCW/tSEjtK6poT2adqh6Pmi2S0=
-		</data>
-		<key>Frameworks/Realm.framework/Realm</key>
-		<data>
-		ZYsZTAeZ8zvIVvXSAXUx/eTQqMo=
-		</data>
-		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
-		<data>
-		KWyE+A/Zxu4qE+zuolVdaQ7I6l4=
-		</data>
-		<key>Frameworks/RealmSwift.framework/Info.plist</key>
-		<data>
-		V3X7Vln/6emHIfFsi7Yn0E+xrus=
-		</data>
-		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
-		<data>
-		gN/Bg5qzwAxo4jwDS5CVOqAPlhM=
-		</data>
-		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
-		<data>
-		3y6cNiAophQtFeXfFYZBbVfYtOM=
-		</data>
 		<key>Headers/PivoBasicSDK-Swift.h</key>
 		<data>
-		iT1xLpKgjDNwMZ9X093NNvvGpM4=
+		60Rb3uSUoaIQYJxALbfp1eYYnKc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Roxd0UReWZNx11bQtEA2tQ5eI9c=
-		</data>
-		<key>Modules/PivoBasicSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		aQhZTC7hZ7OZTQEpB1Y3+VGe+LE=
+		iNChn5E0Hx3LGUgmfnuAxM/lOh0=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		sCglCewOAeKl61GVS6yPoU7X8hQ=
+		l+fzkO92A25gKF+MqopvDWah1Rk=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zZyVlFc0HzvF7VK/krOAjXtTz30=
+		z0RuA40mBsaRGutEbQI7foWscdQ=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/3tdcaqnymq6V8T95WMZ4AUz0cw=
+		jhHc/hfstThlcHgUys2eZzSVZ9g=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zZyVlFc0HzvF7VK/krOAjXtTz30=
+		z0RuA40mBsaRGutEbQI7foWscdQ=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Du7lHyhlTrBycgPJidSf4V3BFSY=
+		+hIFCp/ftjMmxNZUthekRP+RlHQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mVGuGOnAHiDgvjbHJUpvZzQHsUY=
+		hM9SI7FL3ZYv5nRMRNy64v87Ee8=
 		</data>
 		<key>PrivateHeaders/AuthWrapper.h</key>
 		<data>
@@ -98,245 +46,102 @@
 		</data>
 		<key>PrivateHeaders/PivoBasicSDK.h</key>
 		<data>
-		46f67VMMYQ9ORnsYtCUybjBnHds=
+		dDGIlTvUIWSJliP0qUcp/fu7iAs=
 		</data>
 		<key>PrivateHeaders/auth_pivo.hpp</key>
 		<data>
 		vkxG+VgxJnK6jCv93Tet0uPx4Eo=
 		</data>
-		<key>de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jo0Jb3c/00EchHGau/dFIgeB90Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ufNg5ABnNhPPqagpK5GUH66b3F0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2MDzaHg2hKMnDsqlmOmCBFeUtAc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			djQndOpu/+T38RTlbtGPFeNBZvc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BirfVwFZ2DsRXgQyKTS7+bK/318=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			strovn0mD1BMEVCFQXo4xlC92cA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>loadingAnimation.json</key>
-		<data>
-		E59SV8gu5bLR5QoSIx74+Kv9Xgs=
-		</data>
-		<key>loadingSuccessAnimation.json</key>
-		<data>
-		QszM+9axBxF8ksUG59Pm9NigQlo=
-		</data>
-		<key>pt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4AjDOUT7n4XPBatPyI+nJ0zOgHs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>public.pem</key>
 		<data>
 		kRRVUmiCCDLOMgel9h6drB5evH4=
 		</data>
-		<key>ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rk4kJMuc4Uhv6vtD0uhFrMDgrfE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>splashOption4End.json</key>
-		<data>
-		4I3knnJFWtV/lOMJCKky9UBpsDY=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M9Ljtb/L25bG9R7Ks+RRcsw6fGG+67ezwdBEGlEPaeQ=
-			</data>
-		</dict>
-		<key>Frameworks/MBProgressHUD.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YTYFErY6H6zS3uH7QD6Bdv4iQthuDjP3OW9K8k1VVVM=
-			</data>
-		</dict>
-		<key>Frameworks/MBProgressHUD.framework/MBProgressHUD</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BS7lN/Q/lFABRP+1FUjjYJSBZaiQr+a3gDqq8vf3oXI=
-			</data>
-		</dict>
-		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gVxzQT4jp0XxBd8tWQUuuJ2kdnXbiJ+Ox7G/c2C9owk=
-			</data>
-		</dict>
-		<key>Frameworks/Realm.framework/CHANGELOG.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NNaMyRcQlR7tn3BqMbGBzhkWR2NtQOISUPWkZwjpfzc=
-			</data>
-		</dict>
-		<key>Frameworks/Realm.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			u3eZVrbm12E0uCOVbDZjhwXgRum7v/RKNY9Hpt1ExCo=
-			</data>
-		</dict>
-		<key>Frameworks/Realm.framework/LICENSE</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4AU/dZipGb8IRaqaLdPM3tRbyOkWiVzC+VCcVL9sq5M=
-			</data>
-		</dict>
-		<key>Frameworks/Realm.framework/Realm</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UoxmYAso0eGGAm+8WJ3mf9bYY7QUbRdOjeojfpd6m7I=
-			</data>
-		</dict>
-		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			P1UWlb8mpo+HP32WU0/uA26cgku1ZdDsxc97SWVirZM=
-			</data>
-		</dict>
-		<key>Frameworks/RealmSwift.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JVxG3lj3AbQRIZeaMEt3GDj+0EZe3k8xpnlFU7K7xYE=
-			</data>
-		</dict>
-		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gd7cf95FbzNb13eCAMdzmO5cTlgGfGbFa4z/RXMNS80=
-			</data>
-		</dict>
-		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HvwrP4L/ysNQ9Ot7SNGbwaBbfG0UOTH3eXTAFBosavI=
-			</data>
-		</dict>
 		<key>Headers/PivoBasicSDK-Swift.h</key>
 		<dict>
-			<key>hash2</key>
+			<key>hash</key>
 			<data>
-			/cgJ7LMf4Gh5HGd6jer+rrigAyIPtbURzZL2kwnK6Bk=
+			60Rb3uSUoaIQYJxALbfp1eYYnKc=
 			</data>
-		</dict>
-		<key>Modules/PivoBasicSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
 			<key>hash2</key>
 			<data>
-			lFIkBdS9XZh0tKAiSftxgAtcOn7tciYQJJUETYgSGio=
+			yse7kGSQ+Z8XIRgv0rqIB8MEf3ogl8agJSrvRiham0o=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			l+fzkO92A25gKF+MqopvDWah1Rk=
+			</data>
 			<key>hash2</key>
 			<data>
-			MPITvnkPG1cFhDpt0cOz9k1BCuWqySG+kAjADgGyEis=
+			zXjqF+zrDAMBsR1VHWLcK7sVkZ4fIhsuqS8JYSV3nhU=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			z0RuA40mBsaRGutEbQI7foWscdQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			ybxcPFqBMX141yELN4GPGAnL9FuBjGP21aPn1ivOJlc=
+			Dp8+IroU5zEx310oEmUKdAc+EX6CjL9oJXZRZdzVaLQ=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			jhHc/hfstThlcHgUys2eZzSVZ9g=
+			</data>
 			<key>hash2</key>
 			<data>
-			4RsvN2JSpw49A08KPNaKJ/DwbnqEtYqFoWKrC+MaMsY=
+			3zYbFBkhEQ0WGT/naBwWW5XQqyXx9oNuQ3t1d6JQUvY=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			z0RuA40mBsaRGutEbQI7foWscdQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			ybxcPFqBMX141yELN4GPGAnL9FuBjGP21aPn1ivOJlc=
+			Dp8+IroU5zEx310oEmUKdAc+EX6CjL9oJXZRZdzVaLQ=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+hIFCp/ftjMmxNZUthekRP+RlHQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			49k0PKI9swV3MIfzLii08c980XXNmlQZ5lE5BlR1/PM=
+			moX94mvDDv65oGHT/CCezrBdlIl5QIn53id1ORgnHvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hM9SI7FL3ZYv5nRMRNy64v87Ee8=
+			</data>
 			<key>hash2</key>
 			<data>
-			rfY5pSOgVmmsvzkgKkwQ/pb2NZy5OlIv7/JVWj103Ks=
+			lUNrNW952lbkbCw2ASJ6uRkerSOD1CND15mjjI//TdY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/AuthWrapper.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qGA4G29STjlfaEt4aIqNgxBQlLU=
+			</data>
 			<key>hash2</key>
 			<data>
 			JJwJPlQdOBQR2pUGGz9CCNBW3H6XJ/7496JmLsQk/G8=
@@ -344,6 +149,10 @@
 		</dict>
 		<key>PrivateHeaders/NSData+SHA.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XIuywOsD+81jNeJDqsJui3CLHjc=
+			</data>
 			<key>hash2</key>
 			<data>
 			1kETF9pNG1BBc26ZnZ7DTZjlQgInbitKJSTXIGB9IH4=
@@ -351,116 +160,35 @@
 		</dict>
 		<key>PrivateHeaders/PivoBasicSDK.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			dDGIlTvUIWSJliP0qUcp/fu7iAs=
+			</data>
 			<key>hash2</key>
 			<data>
-			8lYNRVAzYpg6jb0zkUylpnPumEsV2tz5ToHYsOXhjbc=
+			kaO0dxocJxKNiEO3RwCSOygPdkvHwKv81c/EMM0Fyx0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/auth_pivo.hpp</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vkxG+VgxJnK6jCv93Tet0uPx4Eo=
+			</data>
 			<key>hash2</key>
 			<data>
 			MLOeDP0sGeP7pZOYobYujkrDAcSblAeTMV5afGKtmpo=
 			</data>
 		</dict>
-		<key>de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C7LIFcs5cfgYwnIS9UIutcppSAxPkUY82B6DfpJVIHw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ek4Uty03ycd83HjFyiMcLkkQ7XTenO+NIBudMESfCxQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cyN2RytYo5kOUt58z5IHuUeCbSFQmAsiG2QAfKuYSCE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NwvE/w1FcbZqjtGYS/Rxf8j9HGikC1PD6QgEin2diiw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gO1+83b+fSDIYewUBiqNrU7H3zzloqK3y+m2RpQMYIk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qyS15l8Qi3dUYhn2FeYZot6qiCPlBTuCMwC7SxIAb1g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>loadingAnimation.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			grQ+nsqnqhWAnl/4YQjW8RskFWveUIPbuyaIDmM4WAA=
-			</data>
-		</dict>
-		<key>loadingSuccessAnimation.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OeWVatjDAjgd2zvVS2LulKMBNvbHucn2e+AgQON6YEI=
-			</data>
-		</dict>
-		<key>pt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			suXK1E8XBvSVVwTubfZ0tM9rLp9tuWDthwjRffRmQ1E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>public.pem</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kRRVUmiCCDLOMgel9h6drB5evH4=
+			</data>
 			<key>hash2</key>
 			<data>
 			okRLdcIqRM+Rn0t98mR0yiuesSJPgwXWfbNKXmX9yGo=
-			</data>
-		</dict>
-		<key>ru.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F2hrOSNheFY59wWNFo9QtrX75t1Lti9SDPMnGxlOboA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>splashOption4End.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			t+76euuFCUpu/1hPK/Y1YCz8os1rJN6zR7Vnstz8HfY=
 			</data>
 		</dict>
 	</dict>

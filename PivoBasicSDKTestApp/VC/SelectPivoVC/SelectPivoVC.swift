@@ -24,9 +24,14 @@ class SelectPivoVC: UIViewController, UIImagePickerControllerDelegate {
   @IBOutlet weak var deviceStatusLabel: UILabel!
   
   private let tableRowHeight = 75
+    
+    struct Rotator {
+      let id: String
+      let name: String
+    }
   
   private var pivoSDK = PivoSDK.shared
-  private var rotators: [BluetoothDevice] = []
+  private var rotators: [Rotator] = []
   
   private var isScanning = false
   private var isConnecting = false
@@ -116,8 +121,6 @@ class SelectPivoVC: UIViewController, UIImagePickerControllerDelegate {
         break
       case .pivoNotConnected:
         presentAlert(title: "Failed", message: "Pivo not connected")
-      case .savingLocationCantBeEmpty:
-        break
       }
       return
     }
@@ -164,9 +167,11 @@ class SelectPivoVC: UIViewController, UIImagePickerControllerDelegate {
     if self.rotators.count == 0 {
       self.deviceStatusLabel.text = "Could not find any rotator"
     } else if self.rotators.count == 1 {
+        
+      let rotatorId = self.rotators.first!.id
       self.deviceStatusLabel.text = "Please connect to rotator"
       self.isConnecting = true
-      self.pivoSDK.connect(device: self.rotators.first!)
+      self.pivoSDK.connect(id: rotatorId)
     } else {
       self.deviceStatusLabel.text = "Several rotator detected"
     }
@@ -182,22 +187,18 @@ class SelectPivoVC: UIViewController, UIImagePickerControllerDelegate {
   }
 }
 
-extension SelectPivoVC: PodConnectionDelegate {
-  func pivoConnection(didDiscover device: BluetoothDevice) {
-    DispatchQueue.main.async {
-      self.rotators.append(device)
-      self.updateView()
-      self.tableView.reloadData()
-    }
+extension SelectPivoVC: PivoConnectionDelegate {
+  func pivoConnection(didDiscover id: String, deviceName: String) {
+    self.rotators.append(Rotator(id: id, name: deviceName))
+    updateView()
+    tableView.reloadData()
   }
   
-  func pivoConnection(didEstablishSuccessfully device: BluetoothDevice) {
+  func pivoConnection(didEstablishSuccessfully id: String) {
     isConnecting = false
-    DispatchQueue.main.async { [weak self] in
-      self?.tableView.reloadData()
-      self?.handleRotatorConnected()
-      self?.view.isUserInteractionEnabled = true
-    }
+    tableView.reloadData()
+    handleRotatorConnected()
+    view.isUserInteractionEnabled = true
   }
   
   func pivoConnectionBluetoothPermissionDenied() {
@@ -205,33 +206,29 @@ extension SelectPivoVC: PodConnectionDelegate {
     presentAlert(title: "Failed", message: "Bluetooth premission denied")
   }
   
-  func pivoConnection(didFailToConnect device: BluetoothDevice) {
+  func pivoConnection(didConnectionFailed id: String) {
     isConnecting = false
-    DispatchQueue.main.async { [weak self] in
-      self?.view.isUserInteractionEnabled = true
-      let alertController = UIAlertController(title: "Connection Failed",
-                                              message: "Failed to connect. Do you want to try again?",
-                                              preferredStyle: UIAlertController.Style.alert)
-      
-      let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
-      let scanAction = UIAlertAction(title: "Scan", style: UIAlertAction.Style.default) { (result : UIAlertAction) -> Void in
-        self?.rotators.removeAll()
-        self?.updateView()
-        self?.scanBluetoothDevice()
-      }
-      
-      alertController.addAction(cancelAction)
-      alertController.addAction(scanAction)
-      self?.present(alertController, animated: true, completion: nil)
+    view.isUserInteractionEnabled = true
+    let alertController = UIAlertController(title: "Connection Failed",
+                                            message: "Failed to connect. Do you want to try again?",
+                                            preferredStyle: UIAlertController.Style.alert)
+    
+    let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
+    let scanAction = UIAlertAction(title: "Scan", style: UIAlertAction.Style.default) { (result : UIAlertAction) -> Void in
+      self.rotators.removeAll()
+      self.updateView()
+      self.scanBluetoothDevice()
     }
+    
+    alertController.addAction(cancelAction)
+    alertController.addAction(scanAction)
+    present(alertController, animated: true, completion: nil)
   }
   
   private func handleRotatorConnected() {
     // Open next view
     if let vc = ControlPivoVC.storyboardInstance() {
-      DispatchQueue.main.async {
-        self.navigationController?.pushViewController(vc, animated: true)
-      }
+      navigationController?.pushViewController(vc, animated: true)
     }
   }
 }
@@ -261,7 +258,8 @@ extension SelectPivoVC : UITableViewDataSource, UITableViewDelegate {
     
     tableView.deselectRow(at: indexPath, animated: false)
     if !self.isConnecting {
-      self.pivoSDK.connect(device: currentPer)
+      let currentId = currentPer.id
+      self.pivoSDK.connect(id: currentId)
     }
   }
 }

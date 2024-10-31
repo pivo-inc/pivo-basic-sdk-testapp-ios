@@ -254,29 +254,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C94F73EDFEF0A189263721E05FD36AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9FF646E38F4946B8F5CB2BC6E614E84 /* PivoBasicSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4F54E9EAAB775A55EF7220FE0C68F328 /* Release */ = {
+		2A6334A1EC5B62FD9989C4776B5B5DC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E602535BDDD1863FC823D2CFEA29877 /* PivoBasicSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +437,23 @@
 			};
 			name = Debug;
 		};
+		DC88E3C0EF719B0A60F277006025A131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FF646E38F4946B8F5CB2BC6E614E84 /* PivoBasicSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		E4785D6BBCDAB95B0633C983DC657016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2582AB6AF43563CC2581844491BBE154 /* Pods-PivoBasicSDKTestApp.release.xcconfig */;
@@ -514,8 +516,8 @@
 		9601F6163A03817AE56B02BCFF060202 /* Build configuration list for PBXAggregateTarget "PivoBasicSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C94F73EDFEF0A189263721E05FD36AC /* Debug */,
-				4F54E9EAAB775A55EF7220FE0C68F328 /* Release */,
+				DC88E3C0EF719B0A60F277006025A131 /* Debug */,
+				2A6334A1EC5B62FD9989C4776B5B5DC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
