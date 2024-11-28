@@ -21,7 +21,11 @@ class ControlPivoVC: UIViewController {
   @IBOutlet weak var labelCommand: UILabel!
   @IBOutlet weak var tfAngle: UITextField!
   @IBOutlet weak var buttonSpeed: UIButton!
-  
+  @IBOutlet weak var bypassSwitch: UISwitch!
+    
+    private var oneDegreeRotateLeftCount: Int = 0
+    private var oneDegreeRotateRightCount: Int = 0
+    
   private lazy var pivoSDK = PivoSDK.shared
   
   override func viewDidLoad() {
@@ -49,6 +53,7 @@ class ControlPivoVC: UIViewController {
     setPivoFastestSpeed()
     
     scrollView.keyboardDismissMode = .onDrag
+    didToggleByPassRCChanged(bypassSwitch)
   }
   
   private func setPivoFastestSpeed() {
@@ -56,6 +61,7 @@ class ControlPivoVC: UIViewController {
   }
   
   @IBAction func didRotateLeftByDegreeButtonClicked(_ sender: Any) {
+      resetOneDegreeRotateCount()
     resignResponder()
     if let angleStr = tfAngle.text, var angle = Int(angleStr) {
       angle = angle > 360 ? 360 : angle
@@ -71,6 +77,7 @@ class ControlPivoVC: UIViewController {
   }
   
   @IBAction func didRotateRightByDegreeButtonClicked(_ sender: Any) {
+      resetOneDegreeRotateCount()
     resignResponder()
     if let angleStr = tfAngle.text, var angle = Int(angleStr) {
       angle = angle > 360 ? 360 : angle
@@ -85,16 +92,19 @@ class ControlPivoVC: UIViewController {
   }
   
   @IBAction func didRotateLeftContinouslyButtonClicked(_ sender: Any) {
+      resetOneDegreeRotateCount()
     resignResponder()
     pivoSDK.turnLeftContinuously()
   }
   
   @IBAction func didRotateRightContinouslyButtonClicked(_ sender: Any) {
+      resetOneDegreeRotateCount()
     resignResponder()
     pivoSDK.turnRightContinuously()
   }
   
   @IBAction func didStopButtonClicked(_ sender: Any) {
+      resetOneDegreeRotateCount()
     resignResponder()
     pivoSDK.stop()
   }
@@ -132,7 +142,8 @@ class ControlPivoVC: UIViewController {
       guard try pivoSDK.isByPassRemoteControllerSupported() else {
         return
       }
-      
+        
+      print("bypass is \(sender.isOn)")
       sender.isOn ? pivoSDK.turnOnByPassRemoteController() : pivoSDK.turnOffBypassRemoteController()
 //      sender.isOn ? pivoConnectionByPassRemoteControllerOn() : pivoConnectionByPassRemoteControllerOff()
     }
@@ -140,7 +151,20 @@ class ControlPivoVC: UIViewController {
       print(error)
     }
   }
-  
+    @IBAction func didToggleNotifierRCChanged(_ sender: UISwitch) {
+        do {
+            guard try pivoSDK.isNotifierSupported() else {
+                return
+            }
+            
+            print("notifier is \(sender.isOn)")
+            sender.isOn ? pivoSDK.turnOnNotifier() : pivoSDK.turnOffNotifier()
+        }
+        catch {
+            print(error)
+        }
+    }
+    
   private func resignResponder() {
     tfAngle.resignFirstResponder()
   }
@@ -196,6 +220,11 @@ extension ControlPivoVC {
       self?.present(alert, animated: true, completion: nil)
     }
   }
+    
+    private func resetOneDegreeRotateCount() {
+        oneDegreeRotateLeftCount = 0
+        oneDegreeRotateRightCount = 0
+    }
 }
 
 extension ControlPivoVC: PivoConnectionDelegate {
@@ -215,9 +244,29 @@ extension ControlPivoVC: PivoConnectionDelegate {
   func pivoConnectionByPassRemoteControllerOff() {
     labelCommand.text = "By Pass Remote Controller Off"
   }
+    
+    func pivoConnectionNotifierOn() {
+        labelCommand.text = "1 Degree Rotate Notifier On"
+    }
+     
+    func pivoConnectionNotifierOff() {
+        labelBatteryLevel.text = "Battery Level:"
+        labelCommand.text = "1 Degree Rotate Notifier turned Off"
+    }
+    
+    func pivoConnectionDidRotate1DegreeLeft() {
+        oneDegreeRotateLeftCount += 1
+        labelBatteryLevel.text = "Rotated 1 Degree Left: \(oneDegreeRotateLeftCount)"
+    }
+    
+    func pivoConnectionDidRotate1DegreeRight() {
+        oneDegreeRotateRightCount += 1
+        labelBatteryLevel.text = "Rotated 1 Degree Right: \(oneDegreeRotateRightCount)"
+    }
   
   func pivoConnection(batteryLevel: Int) {
     labelBatteryLevel.text = "Battery Level: \(batteryLevel)%"
+      labelCommand.text = "BATTERY_CHANGED"
   }
   
   func pivoConnection(didDisconnect id: String) {
