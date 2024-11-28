@@ -35,3 +35,7 @@ In version 1.0.1:
 In version 1.0.2:
 - Remove 3rd party framework
 - Change `PodConnectionDelegate` to `PivoConnectionDelegate`
+
+In version 1.0.3:
+- Add Notifier for `1 degree rotate(right/left)`
+- Add Pivo Max remote control commands

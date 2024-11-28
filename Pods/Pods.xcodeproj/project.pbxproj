@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1FACEE732DF678B7D84C133FF3BA275D /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91EBD3E999BF999D23BEE04555C488 /* Pods-PivoBasicSDKTestApp-dummy.m */; };
-		40F0E5390138E4389C7622507ABB4AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		948169647376A21250E28576EF1121EE /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17280E4E6D93845BA935CBD86896DBA0 /* Pods-PivoBasicSDKTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596FDCBDE1FEE5390D5A9FE8033F794E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		60BBFF98E503AF9EFD622EE87DC63774 /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17280E4E6D93845BA935CBD86896DBA0 /* Pods-PivoBasicSDKTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C40A01AD57E33F6927C936754CE9D5 /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91EBD3E999BF999D23BEE04555C488 /* Pods-PivoBasicSDKTestApp-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EA16A5D13E0D3D1D0312852FC882593 /* PBXContainerItemProxy */ = {
+		686FFB3CB471C95BE81CEFD388E9AD5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,9 +41,9 @@
 		207657EF87A19C72860D2956CF925DB9 /* PivoBasicSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PivoBasicSDK-Swift.h"; path = "PivoBasicSDK.framework/Headers/PivoBasicSDK-Swift.h"; sourceTree = "<group>"; };
 		23DBEE6EBD44A0AA088996E5FE5E7443 /* Pods-PivoBasicSDKTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PivoBasicSDKTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2582AB6AF43563CC2581844491BBE154 /* Pods-PivoBasicSDKTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PivoBasicSDKTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E602535BDDD1863FC823D2CFEA29877 /* PivoBasicSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PivoBasicSDK.release.xcconfig; sourceTree = "<group>"; };
 		532ED705558041361CBCF631D0EF87F9 /* Pods-PivoBasicSDKTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PivoBasicSDKTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADB21BCDB7C771DE64F4BF2BA17BCBD8 /* Pods-PivoBasicSDKTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PivoBasicSDKTestApp-Info.plist"; sourceTree = "<group>"; };
 		B438E8E3B1DC40CCE8681B1928A77684 /* Pods-PivoBasicSDKTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PivoBasicSDKTestApp-frameworks.sh"; sourceTree = "<group>"; };
@@ -54,11 +54,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC32CAC927B5609E20F587A288E98E95 /* Frameworks */ = {
+		9213B2B7A17C0EB8D8BDFC7AE35EA7AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F0E5390138E4389C7622507ABB4AA6 /* Foundation.framework in Frameworks */,
+				596FDCBDE1FEE5390D5A9FE8033F794E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,14 +71,6 @@
 				5A44EAE5C51813C0633227A6EFDEA418 /* PivoBasicSDK */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		59B897BA943B55EF05F42F9C4C012FF4 /* Support Files */ = {
@@ -149,9 +141,17 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		FD127EFDC2F78697D9FDFBFF42154168 /* Frameworks */ = {
@@ -165,11 +165,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DBEB642EE17F72D8C9B83E34F430F263 /* Headers */ = {
+		C673D15EC63B20EF0782C259AB152A46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948169647376A21250E28576EF1121EE /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */,
+				60BBFF98E503AF9EFD622EE87DC63774 /* Pods-PivoBasicSDKTestApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,17 +178,17 @@
 /* Begin PBXNativeTarget section */
 		D015EC1FA5D66B7729021F12E4414A86 /* Pods-PivoBasicSDKTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 678935C8C3C5345A7D7656C1BF0D4A19 /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */;
+			buildConfigurationList = 92A686869C93B1DB5FA26B99B68B1382 /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */;
 			buildPhases = (
-				DBEB642EE17F72D8C9B83E34F430F263 /* Headers */,
-				B4226294C3B634D418D112E6D49C1C39 /* Sources */,
-				DC32CAC927B5609E20F587A288E98E95 /* Frameworks */,
-				FC71289C3B83FAD5A2E87CBCC1455A70 /* Resources */,
+				C673D15EC63B20EF0782C259AB152A46 /* Headers */,
+				AEA621ACC0425BF18F49874734D54FEA /* Sources */,
+				9213B2B7A17C0EB8D8BDFC7AE35EA7AA /* Frameworks */,
+				FF33DBEC638CF022170B7B467CB5366F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				58B900FE70BD7F3FBDF721B0DA204347 /* PBXTargetDependency */,
+				EEE865A660329E47C575A32BBDE9B2D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-PivoBasicSDKTestApp";
 			productName = Pods_PivoBasicSDKTestApp;
@@ -201,8 +201,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -213,6 +213,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 5DCD148F2E3B984335AA8FD4993BFAA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,7 +226,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC71289C3B83FAD5A2E87CBCC1455A70 /* Resources */ = {
+		FF33DBEC638CF022170B7B467CB5366F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,43 +236,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4226294C3B634D418D112E6D49C1C39 /* Sources */ = {
+		AEA621ACC0425BF18F49874734D54FEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FACEE732DF678B7D84C133FF3BA275D /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */,
+				F2C40A01AD57E33F6927C936754CE9D5 /* Pods-PivoBasicSDKTestApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		58B900FE70BD7F3FBDF721B0DA204347 /* PBXTargetDependency */ = {
+		EEE865A660329E47C575A32BBDE9B2D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PivoBasicSDK;
 			target = D5DAE5B8BA6B9DCF789947906AF4D7C3 /* PivoBasicSDK */;
-			targetProxy = 2EA16A5D13E0D3D1D0312852FC882593 /* PBXContainerItemProxy */;
+			targetProxy = 686FFB3CB471C95BE81CEFD388E9AD5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A6334A1EC5B62FD9989C4776B5B5DC8 /* Release */ = {
+		25F2A7983CF4F2A5B3C306FDA7CB6CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E602535BDDD1863FC823D2CFEA29877 /* PivoBasicSDK.release.xcconfig */;
+			baseConfigurationReference = 23DBEE6EBD44A0AA088996E5FE5E7443 /* Pods-PivoBasicSDKTestApp.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -400,61 +423,7 @@
 			};
 			name = Release;
 		};
-		D57CDC8A62EBABF36DBC547B1A2795F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23DBEE6EBD44A0AA088996E5FE5E7443 /* Pods-PivoBasicSDKTestApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC88E3C0EF719B0A60F277006025A131 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9FF646E38F4946B8F5CB2BC6E614E84 /* PivoBasicSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E4785D6BBCDAB95B0633C983DC657016 /* Release */ = {
+		A4ED6AB798AA500BBB307E1D2BC25405 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2582AB6AF43563CC2581844491BBE154 /* Pods-PivoBasicSDKTestApp.release.xcconfig */;
 			buildSettings = {
@@ -468,6 +437,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -492,6 +463,43 @@
 			};
 			name = Release;
 		};
+		B327B2E239E0D95FE53518DD2213CA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FF646E38F4946B8F5CB2BC6E614E84 /* PivoBasicSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE2898FC182DAE24B682DDE1FAE6746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E602535BDDD1863FC823D2CFEA29877 /* PivoBasicSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -504,11 +512,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		678935C8C3C5345A7D7656C1BF0D4A19 /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */ = {
+		92A686869C93B1DB5FA26B99B68B1382 /* Build configuration list for PBXNativeTarget "Pods-PivoBasicSDKTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D57CDC8A62EBABF36DBC547B1A2795F2 /* Debug */,
-				E4785D6BBCDAB95B0633C983DC657016 /* Release */,
+				25F2A7983CF4F2A5B3C306FDA7CB6CD7 /* Debug */,
+				A4ED6AB798AA500BBB307E1D2BC25405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -516,8 +524,8 @@
 		9601F6163A03817AE56B02BCFF060202 /* Build configuration list for PBXAggregateTarget "PivoBasicSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC88E3C0EF719B0A60F277006025A131 /* Debug */,
-				2A6334A1EC5B62FD9989C4776B5B5DC8 /* Release */,
+				B327B2E239E0D95FE53518DD2213CA9B /* Debug */,
+				FAE2898FC182DAE24B682DDE1FAE6746 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

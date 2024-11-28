@@ -28,6 +28,8 @@ public protocol PivoConnectionDelegate : AnyObject {
   func pivoConnectionBluetoothPermissionDenied()
   func pivoConnectionByPassRemoteControllerOn()
   func pivoConnectionByPassRemoteControllerOff()
+  func pivoConnectionNotifierOn()
+  func pivoConnectionNotifierOff()
 }
 extension PivoBasicSDK.PivoConnectionDelegate {
   public func pivoConnection(didDiscover id: Swift.String, deviceName: Swift.String)
@@ -43,6 +45,8 @@ extension PivoBasicSDK.PivoConnectionDelegate {
   public func pivoConnectionDidRotate1DegreeRight()
   public func pivoConnectionByPassRemoteControllerOn()
   public func pivoConnectionByPassRemoteControllerOff()
+  public func pivoConnectionNotifierOn()
+  public func pivoConnectionNotifierOff()
 }
 public enum Direction {
   case RIGHT
@@ -78,6 +82,8 @@ public enum PivoEvent {
   case ROTATED_1DEGREE_RIGHT
   case BYPASS_RC_ON
   case BYPASS_RC_OFF
+  case NOTIFIER_ON
+  case NOTIFIER_OFF
 }
 extension PivoBasicSDK.PivoEvent : Swift.Equatable {
   public static func == (lhs: PivoBasicSDK.PivoEvent, rhs: PivoBasicSDK.PivoEvent) -> Swift.Bool
@@ -149,6 +155,9 @@ public enum PivoType {
   public func isByPassRemoteControllerSupported() throws -> Swift.Bool
   public func turnOnByPassRemoteController()
   public func turnOffBypassRemoteController()
+  public func isNotifierSupported() throws -> Swift.Bool
+  public func turnOnNotifier()
+  public func turnOffNotifier()
   @objc deinit
 }
 extension PivoBasicSDK.Direction : Swift.Equatable {}
