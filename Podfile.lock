@@ -1,22 +1,22 @@
 PODS:
-  - PivoBasicSDK (1.0.3)
+  - PivoBasicSDK (1.0.4)
 
 DEPENDENCIES:
-  - PivoBasicSDK (from `https://github.com/pivo-inc/pivo-basic-sdk-ios.git`, tag `1.0.3`)
+  - PivoBasicSDK (from `https://github.com/pivo-inc/pivo-basic-sdk-ios.git`, tag `1.0.4`)
 
 EXTERNAL SOURCES:
   PivoBasicSDK:
     :git: https://github.com/pivo-inc/pivo-basic-sdk-ios.git
-    :tag: 1.0.3
+    :tag: 1.0.4
 
 CHECKOUT OPTIONS:
   PivoBasicSDK:
     :git: https://github.com/pivo-inc/pivo-basic-sdk-ios.git
-    :tag: 1.0.3
+    :tag: 1.0.4
 
 SPEC CHECKSUMS:
-  PivoBasicSDK: f522da156c2338dde1ad3ee57835cd27209aa3f1
+  PivoBasicSDK: c1a1559bb986614f7e5c25e7f45cecec52ca8925
 
-PODFILE CHECKSUM: c41df9a99822970afd2bb89b938b9c348d28d242
+PODFILE CHECKSUM: c1bde82d7df6ffd4ef9ed5bc4028c5323d2dd52c
 
 COCOAPODS: 1.16.2

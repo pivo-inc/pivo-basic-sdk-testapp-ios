@@ -70,6 +70,10 @@ public enum PivoEvent {
   case LEFT_RELEASED
   case RIGHT_PRESSED
   case RIGHT_RELEASED
+  case UP_PRESSED
+  case UP_RELEASED
+  case DOWN_PRESSED
+  case DOWN_RELEASED
   case LEFT_CONTINOUS_PRESSED
   case RIGHT_CONTINOUS_PRESSED
   case SPEEDUP_PRESSED(secondsPerRound: Swift.Int)
