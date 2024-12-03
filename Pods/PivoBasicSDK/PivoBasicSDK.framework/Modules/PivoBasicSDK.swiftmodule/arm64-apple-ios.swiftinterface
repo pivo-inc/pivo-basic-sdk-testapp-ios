@@ -59,8 +59,14 @@ public enum Direction {
 }
 public enum PivoEvent {
   case MODE
+  case MODE_PRESSED
+  case MODE_RELEASED
   case CAMERA
+  case CENTER_PRESSED
+  case CENTER_RELEASED
   case STOP
+  case STOP_PRESSED
+  case STOP_RELEASED
   case OFF
   case CONNECTION_COMPLETED
   case NAME_CHANGED
@@ -75,7 +81,9 @@ public enum PivoEvent {
   case DOWN_PRESSED
   case DOWN_RELEASED
   case LEFT_CONTINOUS_PRESSED
+  case LEFT_CONTINOUS_RELEASED
   case RIGHT_CONTINOUS_PRESSED
+  case RIGHT_CONTINOUS_RELEASED
   case SPEEDUP_PRESSED(secondsPerRound: Swift.Int)
   case SPEEDUP_RELEASED(secondsPerRound: Swift.Int)
   case SPEEDDOWN_PRESSED(secondsPerRound: Swift.Int)

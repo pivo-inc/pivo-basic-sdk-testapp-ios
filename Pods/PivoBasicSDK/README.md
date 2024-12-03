@@ -42,3 +42,6 @@ In version 1.0.3:
 
 In version 1.0.4:
 - Modify Pivo Max remote control callback
+
+In version 1.0.5:
+- Modify some remote control `pressed` and `released` event

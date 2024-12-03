@@ -14,23 +14,23 @@
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QS3kD9+XFY9Nunj8qwaDBV363+U=
+		gCeh18+LeHj3qsa73IwVwffJVtE=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		bjBykuYsLyThelBUcGib8qUX9xc=
+		2l8L8Nw4BCpscsl1Hc/M89nNBpk=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CT47LWk76f9CCEoa9bfwxD5t1+0=
+		7siAinaEDF6ISG9n69zO1Da/dNY=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bjBykuYsLyThelBUcGib8qUX9xc=
+		2l8L8Nw4BCpscsl1Hc/M89nNBpk=
 		</data>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		QCFebTNlilNyLopQUaQBs6TTkrI=
+		/DWxkGrhWC0nVIV9XbGcyDXFHzc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,55 +74,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QS3kD9+XFY9Nunj8qwaDBV363+U=
+			gCeh18+LeHj3qsa73IwVwffJVtE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/X933DtmbT1OMy2kHZAIMR6TSCqHHstICHWJjRlHg4=
+			M9Ky0kYtr95YBVM5+yVUmbhzvVW8+K1fm0lKJuHtkuw=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bjBykuYsLyThelBUcGib8qUX9xc=
+			2l8L8Nw4BCpscsl1Hc/M89nNBpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			iLqS76C/pTmhf0ID6B0/3OBHdRxx65NH2ZB9XHUSyJw=
+			blOysBOFMhaWAAxbt+iKZpT6ADUVBtM4OJCu4UAhNwY=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CT47LWk76f9CCEoa9bfwxD5t1+0=
+			7siAinaEDF6ISG9n69zO1Da/dNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			lbnrSTkx2Wh6xiILGl34Rux3rmnFO6qGTWyKV3GzH9w=
+			7XWCuTuQZ/HR7JJ4tRrfPgv4fQqRTPNCnbEc1HMC5tg=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bjBykuYsLyThelBUcGib8qUX9xc=
+			2l8L8Nw4BCpscsl1Hc/M89nNBpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			iLqS76C/pTmhf0ID6B0/3OBHdRxx65NH2ZB9XHUSyJw=
+			blOysBOFMhaWAAxbt+iKZpT6ADUVBtM4OJCu4UAhNwY=
 			</data>
 		</dict>
 		<key>Modules/PivoBasicSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QCFebTNlilNyLopQUaQBs6TTkrI=
+			/DWxkGrhWC0nVIV9XbGcyDXFHzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			n+nMcLUZWjUooxwWZdBaErFjX84j6LII2jgqFL12TZE=
+			qrFNzS1kHE0rzDXRGfYqLUjF472/j3fZcw3ZfiHNzVQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
