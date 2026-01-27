@@ -23,8 +23,12 @@
 		17DB990F24493B0000D21ECF /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DB990E24493B0000D21ECF /* DeviceOrientation.swift */; };
 		17DB99112449458600D21ECF /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DB99102449458600D21ECF /* UIImageExtension.swift */; };
 		17FA7548243EF6FC007D1B73 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA7547243EF6FC007D1B73 /* AssetsLibrary.framework */; };
-		2A3C8978C8D09A29D9E5D51A /* Pods_PivoBasicSDKTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB03390A6EDDEE2D8E92C87B /* Pods_PivoBasicSDKTestApp.framework */; };
 		36D9EA7629ECB14E005E9C51 /* licenseKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 36D9EA7529ECB14E005E9C51 /* licenseKey.json */; };
+		4B5BB38F2F286DE800B136C7 /* PivoBasicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */; };
+		4B5BB3902F286DED00B136C7 /* PivoBasicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */; };
+		4B5BB3912F286DED00B136C7 /* PivoBasicSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B5BB3922F286DF700B136C7 /* PivoBasicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */; };
+		4B5BB3932F286E0A00B136C7 /* PivoBasicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4B5BB3912F286DED00B136C7 /* PivoBasicSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +66,7 @@
 		17FA7547243EF6FC007D1B73 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		36D9EA7529ECB14E005E9C51 /* licenseKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = licenseKey.json; sourceTree = "<group>"; };
 		39E62C49DA2183BD496B9A90 /* Pods-PivoBasicSDKTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PivoBasicSDKTestApp.release.xcconfig"; path = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PivoBasicSDK.framework; path = Frameworks/PivoBasicSDK.framework; sourceTree = "<group>"; };
 		86F258CAFCA069A7B144F81E /* Pods-PivoBasicSDKTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PivoBasicSDKTestApp.debug.xcconfig"; path = "Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CB03390A6EDDEE2D8E92C87B /* Pods_PivoBasicSDKTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PivoBasicSDKTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,8 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5BB3922F286DF700B136C7 /* PivoBasicSDK.framework in Frameworks */,
+				4B5BB3932F286E0A00B136C7 /* PivoBasicSDK.framework in Frameworks */,
+				4B5BB38F2F286DE800B136C7 /* PivoBasicSDK.framework in Frameworks */,
+				4B5BB3902F286DED00B136C7 /* PivoBasicSDK.framework in Frameworks */,
 				17FA7548243EF6FC007D1B73 /* AssetsLibrary.framework in Frameworks */,
-				2A3C8978C8D09A29D9E5D51A /* Pods_PivoBasicSDKTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +164,7 @@
 			children = (
 				17FA7547243EF6FC007D1B73 /* AssetsLibrary.framework */,
 				CB03390A6EDDEE2D8E92C87B /* Pods_PivoBasicSDKTestApp.framework */,
+				4B5BB38E2F286DE800B136C7 /* PivoBasicSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,7 +224,6 @@
 				17BDA4D923FF965000D68E52 /* Frameworks */,
 				17BDA4DA23FF965000D68E52 /* Resources */,
 				36D9EA9A29ECC5B7005E9C51 /* Embed Frameworks */,
-				F1F96002F3868125D0BD56AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,23 +304,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1F96002F3868125D0BD56AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PivoBasicSDKTestApp/Pods-PivoBasicSDKTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PivoBasicSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PivoBasicSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreBluetooth
 import Foundation
 @_exported import PivoBasicSDK
@@ -110,9 +110,11 @@ public enum PivoError : Foundation.LocalizedError {
   case trackingModeNotSupported
   case feedbackNotSupported
   case pivoNotConnected
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
   public static func == (a: PivoBasicSDK.PivoError, b: PivoBasicSDK.PivoError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -127,6 +129,57 @@ public enum PivoType {
   case lite
   case max
   public static func == (a: PivoBasicSDK.PivoType, b: PivoBasicSDK.PivoType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct EasingConfig {
+  public var easingType: PivoBasicSDK.EasingType
+  public var startSpeed: Swift.Int
+  public var endSpeed: Swift.Int
+  public var tickInterval: Foundation.TimeInterval
+  public var totalTicks: Swift.Int
+  public var stopDelay: Foundation.TimeInterval
+  public init(easingType: PivoBasicSDK.EasingType = .cubicEaseIn, startSpeed: Swift.Int = 12, endSpeed: Swift.Int = 510, tickInterval: Foundation.TimeInterval = 0.055, totalTicks: Swift.Int = 20, stopDelay: Foundation.TimeInterval = 0.06)
+  public static let `default`: PivoBasicSDK.EasingConfig
+  public static let fast: PivoBasicSDK.EasingConfig
+  public static let slow: PivoBasicSDK.EasingConfig
+  public static let smooth: PivoBasicSDK.EasingConfig
+  public static func constantRotationTime(angle: Swift.Double, speed: Swift.Int) -> Foundation.TimeInterval
+  public var easingDuration: Foundation.TimeInterval {
+    get
+  }
+}
+public enum EasingDirection {
+  case left
+  case right
+  public static func == (a: PivoBasicSDK.EasingDirection, b: PivoBasicSDK.EasingDirection) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class EasingExecutor {
+  public var isRunning: Swift.Bool {
+    get
+  }
+  @objc deinit
+  public func startWithConstantRotation(angle: Swift.Double, speed: Swift.Int, direction: PivoBasicSDK.EasingDirection, config: PivoBasicSDK.EasingConfig)
+  public func finishConstantRotationNow()
+  public func cancel()
+  public func cancelTimerOnly()
+}
+public enum EasingType {
+  case linear
+  case cubicEaseIn
+  case cubicEaseOut
+  case cubicEaseInOut
+  case exponentialEaseIn
+  case exponentialEaseOut
+  case smoothStep
+  public func apply(_ t: Swift.Double) -> Swift.Double
+  public static func == (a: PivoBasicSDK.EasingType, b: PivoBasicSDK.EasingType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -170,6 +223,13 @@ public enum PivoType {
   public func isNotifierSupported() throws -> Swift.Bool
   public func turnOnNotifier()
   public func turnOffNotifier()
+  public func isEasingSupported() -> Swift.Bool
+  public func turnLeftEasing(angle: Swift.Double, config: PivoBasicSDK.EasingConfig = .default)
+  public func turnRightEasing(angle: Swift.Double, config: PivoBasicSDK.EasingConfig = .default)
+  public func finishEasingNow()
+  public var isEasingInProgress: Swift.Bool {
+    get
+  }
   @objc deinit
 }
 extension PivoBasicSDK.Direction : Swift.Equatable {}
@@ -178,3 +238,7 @@ extension PivoBasicSDK.PivoError : Swift.Equatable {}
 extension PivoBasicSDK.PivoError : Swift.Hashable {}
 extension PivoBasicSDK.PivoType : Swift.Equatable {}
 extension PivoBasicSDK.PivoType : Swift.Hashable {}
+extension PivoBasicSDK.EasingDirection : Swift.Equatable {}
+extension PivoBasicSDK.EasingDirection : Swift.Hashable {}
+extension PivoBasicSDK.EasingType : Swift.Equatable {}
+extension PivoBasicSDK.EasingType : Swift.Hashable {}
