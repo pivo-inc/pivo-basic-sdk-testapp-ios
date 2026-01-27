@@ -143,9 +143,6 @@ public struct EasingConfig {
   public var stopDelay: Foundation.TimeInterval
   public init(easingType: PivoBasicSDK.EasingType = .cubicEaseIn, startSpeed: Swift.Int = 12, endSpeed: Swift.Int = 510, tickInterval: Foundation.TimeInterval = 0.055, totalTicks: Swift.Int = 20, stopDelay: Foundation.TimeInterval = 0.06)
   public static let `default`: PivoBasicSDK.EasingConfig
-  public static let fast: PivoBasicSDK.EasingConfig
-  public static let slow: PivoBasicSDK.EasingConfig
-  public static let smooth: PivoBasicSDK.EasingConfig
   public static func constantRotationTime(angle: Swift.Double, speed: Swift.Int) -> Foundation.TimeInterval
   public var easingDuration: Foundation.TimeInterval {
     get
