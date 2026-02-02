@@ -6,7 +6,7 @@ target 'PivoBasicSDKTestApp' do
   use_frameworks!
 
   # Pods for PivoBasicSDKTestApp
-  # pod 'PivoBasicSDK', :git => 'https://github.com/pivo-inc/pivo-basic-sdk-ios.git', :tag => '1.0.5'
+   pod 'PivoBasicSDK', :git => 'https://github.com/pivo-inc/pivo-basic-sdk-ios.git', :tag => '1.0.6'
   # Using local: Frameworks/PivoBasicSDK.framework (embedded in Xcode project)
 
 end

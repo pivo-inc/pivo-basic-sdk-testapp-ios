@@ -63,16 +63,19 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QjE-Ex-2pz">
-                                                                <rect key="frame" x="251.5" y="0.0" width="130.5" height="24"/>
+                                                                <rect key="frame" x="246" y="0.0" width="136" height="24"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easing: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDp-Sk-qii">
-                                                                        <rect key="frame" x="0.0" y="2" width="59.5" height="20.5"/>
+                                                                        <rect key="frame" x="0.0" y="2" width="65" height="20.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="65" id="czX-bN-Z8g"/>
+                                                                        </constraints>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Seq-jM-2Cf">
-                                                                        <rect key="frame" x="69.5" y="0.0" width="63" height="24"/>
+                                                                        <rect key="frame" x="75" y="0.0" width="63" height="24"/>
                                                                         <connections>
                                                                             <action selector="didToggleEasingChanged:" destination="Wx1-xR-Wqw" eventType="valueChanged" id="o89-48-xiG"/>
                                                                         </connections>
